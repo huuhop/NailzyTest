@@ -1,0 +1,4461 @@
+[
+    {
+        "order_status": "completed",
+        "payment_status": "paid",
+        "payment_method": "stripe",
+        "pricing": {
+            "items_total": 64.98,
+            "items_discount": 0,
+            "sub_total": 64.98,
+            "total": 45.34,
+            "affiliate_discount": 0,
+            "shipping": 0,
+            "shipping_rate": {
+                "_id": {
+                    "$oid": "66ccb98e7309d93d11732247"
+                },
+                "name": "Free Shipping",
+                "amount": 0,
+                "estimated_days": 4,
+                "conditions": {
+                    "is_turn_on": false,
+                    "type": "order_price",
+                    "min_price": 120,
+                    "max_price": 10000,
+                    "_id": {
+                        "$oid": "6708132c87952301f32f988c"
+                    }
+                },
+                "status": "active",
+                "created_on": 1724692878,
+                "updated_on": 1728582444,
+                "__v": 0,
+                "is_free_ship": true,
+                "id": {
+                    "$oid": "66ccb98e7309d93d11732247"
+                },
+                "servicelevel_name": "Free Shipping",
+                "is_flat_rate": true,
+                "provider": "nailzy"
+            },
+            "sales_tax": 5.36,
+            "sales_tax_rates": 0.0825,
+            "coupons": [
+                {
+                    "id": "66e046c5798c36d31e74ba76",
+                    "amount": 32.49,
+                    "discount_amount": 25,
+                    "provider": "nailzy",
+                    "code": "WELCOME50"
+                }
+            ],
+            "coupon_discount_amount": 25,
+            "tax_information": {
+                "amount_to_collect": 5.36,
+                "breakdown": {
+                    "city_tax_collectable": 0.65,
+                    "city_tax_rate": 0.01,
+                    "city_taxable_amount": 64.98,
+                    "combined_tax_rate": 0.0825,
+                    "county_tax_collectable": 0,
+                    "county_tax_rate": 0,
+                    "county_taxable_amount": 0,
+                    "line_items": [
+                        {
+                            "city_amount": 0.32,
+                            "city_tax_rate": 0.01,
+                            "city_taxable_amount": 31.99,
+                            "combined_tax_rate": 0.0825,
+                            "county_amount": 0,
+                            "county_tax_rate": 0,
+                            "county_taxable_amount": 0,
+                            "id": "67736c3af79f891bea22feef",
+                            "special_district_amount": 0.32,
+                            "special_district_taxable_amount": 31.99,
+                            "special_tax_rate": 0.01,
+                            "state_amount": 2,
+                            "state_sales_tax_rate": 0.0625,
+                            "state_taxable_amount": 31.99,
+                            "tax_collectable": 2.64,
+                            "taxable_amount": 31.99
+                        },
+                        {
+                            "city_amount": 0.33,
+                            "city_tax_rate": 0.01,
+                            "city_taxable_amount": 32.99,
+                            "combined_tax_rate": 0.0825,
+                            "county_amount": 0,
+                            "county_tax_rate": 0,
+                            "county_taxable_amount": 0,
+                            "id": "67736c6cf79f891bea2305f7",
+                            "special_district_amount": 0.33,
+                            "special_district_taxable_amount": 32.99,
+                            "special_tax_rate": 0.01,
+                            "state_amount": 2.06,
+                            "state_sales_tax_rate": 0.0625,
+                            "state_taxable_amount": 32.99,
+                            "tax_collectable": 2.72,
+                            "taxable_amount": 32.99
+                        }
+                    ],
+                    "shipping": {
+                        "city_amount": 0,
+                        "city_tax_rate": 0.01,
+                        "city_taxable_amount": 0,
+                        "combined_tax_rate": 0.0825,
+                        "county_amount": 0,
+                        "county_tax_rate": 0,
+                        "county_taxable_amount": 0,
+                        "special_district_amount": 0,
+                        "special_tax_rate": 0.01,
+                        "special_taxable_amount": 0,
+                        "state_amount": 0,
+                        "state_sales_tax_rate": 0.0625,
+                        "state_taxable_amount": 0,
+                        "tax_collectable": 0,
+                        "taxable_amount": 0
+                    },
+                    "special_district_tax_collectable": 0.65,
+                    "special_district_taxable_amount": 64.98,
+                    "special_tax_rate": 0.01,
+                    "state_tax_collectable": 4.06,
+                    "state_tax_rate": 0.0625,
+                    "state_taxable_amount": 64.98,
+                    "tax_collectable": 5.36,
+                    "taxable_amount": 64.98
+                },
+                "freight_taxable": true,
+                "has_nexus": true,
+                "jurisdictions": {
+                    "city": "ROCKWALL",
+                    "country": "US",
+                    "county": "DALLAS",
+                    "state": "TX"
+                },
+                "order_total_amount": 64.98,
+                "rate": 0.0725,
+                "shipping": 0,
+                "tax_source": "origin",
+                "taxable_amount": 64.98
+            }
+        },
+        "timezone": "America/Chicago",
+        "source_from": "app",
+        "created_on": 1735735493,
+        "updated_on": 1737504001,
+        "code": "250101U6GIME6Z"
+    },
+    {
+        "order_status": "completed",
+        "payment_status": "paid",
+        "payment_method": "stripe",
+        "pricing": {
+            "items_total": 13.25,
+            "items_discount": 0,
+            "sub_total": 13.25,
+            "total": 6.62,
+            "affiliate_discount": 0,
+            "shipping": 0,
+            "shipping_rate": {
+                "_id": {
+                    "$oid": "66fc2df32c7639e71135c3e9"
+                },
+                "seller_id": {
+                    "$oid": "66b3d5a3d6d2af98e0795578"
+                },
+                "name": "Free Shipping",
+                "amount": 0,
+                "estimated_days": 4,
+                "conditions": {
+                    "is_turn_on": false,
+                    "type": "order_price",
+                    "min_price": 0,
+                    "max_price": 0,
+                    "weight_unit": "lb",
+                    "_id": {
+                        "$oid": "66fc2df32c7639e71135c3ea"
+                    }
+                },
+                "status": "active",
+                "is_free_ship": true,
+                "created_on": 1727802867,
+                "updated_on": 1727802867,
+                "__v": 0,
+                "id": {
+                    "$oid": "66fc2df32c7639e71135c3e9"
+                },
+                "servicelevel_name": "Free Shipping",
+                "is_flat_rate": true,
+                "provider": "nailzy"
+            },
+            "sales_tax": 0,
+            "sales_tax_rates": 0,
+            "coupons": [
+                {
+                    "id": "66e046c5798c36d31e74ba76",
+                    "amount": 6.63,
+                    "discount_amount": 6.63,
+                    "provider": "nailzy",
+                    "code": "WELCOME50"
+                }
+            ],
+            "coupon_discount_amount": 6.63,
+            "tax_information": {
+                "amount_to_collect": 0,
+                "freight_taxable": false,
+                "has_nexus": false,
+                "order_total_amount": 13.25,
+                "rate": 0,
+                "shipping": 0,
+                "tax_source": null,
+                "taxable_amount": 0
+            }
+        },
+        "timezone": "America/New_York",
+        "source_from": "app",
+        "created_on": 1735742837,
+        "updated_on": 1737763200,
+        "code": "250101NJYQY3WF"
+    },
+    {
+        "order_status": "completed",
+        "payment_status": "paid",
+        "payment_method": "stripe",
+        "pricing": {
+            "items_total": 14.5,
+            "items_discount": 1.92,
+            "sub_total": 12.58,
+            "total": 6.29,
+            "affiliate_discount": 0,
+            "shipping": 0,
+            "shipping_rate": {
+                "_id": {
+                    "$oid": "66ccb98e7309d93d11732247"
+                },
+                "name": "Free Shipping",
+                "amount": 0,
+                "estimated_days": 4,
+                "conditions": {
+                    "is_turn_on": false,
+                    "type": "order_price",
+                    "min_price": 120,
+                    "max_price": 10000,
+                    "_id": {
+                        "$oid": "6708132c87952301f32f988c"
+                    }
+                },
+                "status": "active",
+                "created_on": 1724692878,
+                "updated_on": 1728582444,
+                "__v": 0,
+                "is_free_ship": true,
+                "id": {
+                    "$oid": "66ccb98e7309d93d11732247"
+                },
+                "servicelevel_name": "Free Shipping",
+                "is_flat_rate": true,
+                "provider": "nailzy"
+            },
+            "sales_tax": 0,
+            "sales_tax_rates": 0,
+            "coupons": [
+                {
+                    "id": "66e046c5798c36d31e74ba76",
+                    "amount": 6.29,
+                    "discount_amount": 6.29,
+                    "provider": "nailzy",
+                    "code": "WELCOME50"
+                }
+            ],
+            "coupon_discount_amount": 6.29,
+            "tax_information": {
+                "amount_to_collect": 0,
+                "freight_taxable": false,
+                "has_nexus": false,
+                "order_total_amount": 12.58,
+                "rate": 0,
+                "shipping": 0,
+                "tax_source": null,
+                "taxable_amount": 0
+            }
+        },
+        "timezone": "America/New_York",
+        "source_from": "app",
+        "created_on": 1735742837,
+        "updated_on": 1737590402,
+        "code": "250101W2N74SD1"
+    },
+    {
+        "order_status": "completed",
+        "payment_status": "paid",
+        "payment_method": "stripe",
+        "pricing": {
+            "items_total": 104.5,
+            "items_discount": 0,
+            "sub_total": 104.5,
+            "total": 96.17,
+            "affiliate_discount": 0,
+            "shipping": 0,
+            "shipping_rate": {
+                "_id": {
+                    "$oid": "66ccb98e7309d93d11732247"
+                },
+                "name": "Free Shipping",
+                "amount": 0,
+                "estimated_days": 4,
+                "conditions": {
+                    "is_turn_on": false,
+                    "type": "order_price",
+                    "min_price": 120,
+                    "max_price": 10000,
+                    "_id": {
+                        "$oid": "6708132c87952301f32f988c"
+                    }
+                },
+                "status": "active",
+                "created_on": 1724692878,
+                "updated_on": 1728582444,
+                "__v": 0,
+                "is_free_ship": true,
+                "id": {
+                    "$oid": "66ccb98e7309d93d11732247"
+                },
+                "servicelevel_name": "Free Shipping",
+                "is_flat_rate": true,
+                "provider": "nailzy"
+            },
+            "sales_tax": 0,
+            "sales_tax_rates": 0,
+            "coupons": [
+                {
+                    "id": "66e046c5798c36d31e74ba76",
+                    "amount": 52.25,
+                    "discount_amount": 8.333333333333334,
+                    "provider": "nailzy",
+                    "code": "WELCOME50"
+                }
+            ],
+            "coupon_discount_amount": 8.333333333333334,
+            "tax_information": {
+                "amount_to_collect": 0,
+                "freight_taxable": false,
+                "has_nexus": false,
+                "order_total_amount": 104.5,
+                "rate": 0,
+                "shipping": 0,
+                "tax_source": null,
+                "taxable_amount": 0
+            }
+        },
+        "timezone": "America/New_York",
+        "source_from": "app",
+        "created_on": 1735742837,
+        "updated_on": 1737849602,
+        "code": "250101QH4PAGZE"
+    },
+    {
+        "order_status": "completed",
+        "payment_status": "paid",
+        "payment_method": "stripe",
+        "pricing": {
+            "items_total": 36,
+            "items_discount": 0,
+            "sub_total": 36,
+            "total": 38.97,
+            "affiliate_discount": 0,
+            "shipping": 0,
+            "shipping_rate": {
+                "_id": {
+                    "$oid": "66fc2df32c7639e71135c3e9"
+                },
+                "seller_id": {
+                    "$oid": "66b3d5a3d6d2af98e0795578"
+                },
+                "name": "Free Shipping",
+                "amount": 0,
+                "estimated_days": 4,
+                "conditions": {
+                    "is_turn_on": false,
+                    "type": "order_price",
+                    "min_price": 0,
+                    "max_price": 0,
+                    "weight_unit": "lb",
+                    "_id": {
+                        "$oid": "66fc2df32c7639e71135c3ea"
+                    }
+                },
+                "status": "active",
+                "is_free_ship": true,
+                "created_on": 1727802867,
+                "updated_on": 1727802867,
+                "__v": 0,
+                "id": {
+                    "$oid": "66fc2df32c7639e71135c3e9"
+                },
+                "servicelevel_name": "Free Shipping",
+                "is_flat_rate": true,
+                "provider": "nailzy"
+            },
+            "sales_tax": 2.97,
+            "sales_tax_rates": 0.0825,
+            "coupons": [],
+            "coupon_discount_amount": 0,
+            "tax_information": {
+                "amount_to_collect": 2.97,
+                "breakdown": {
+                    "city_tax_collectable": 0.36,
+                    "city_tax_rate": 0.01,
+                    "city_taxable_amount": 36,
+                    "combined_tax_rate": 0.0825,
+                    "county_tax_collectable": 0,
+                    "county_tax_rate": 0,
+                    "county_taxable_amount": 0,
+                    "line_items": [
+                        {
+                            "city_amount": 0.36,
+                            "city_tax_rate": 0.01,
+                            "city_taxable_amount": 36,
+                            "combined_tax_rate": 0.0825,
+                            "county_amount": 0,
+                            "county_tax_rate": 0,
+                            "county_taxable_amount": 0,
+                            "id": "6714c7324769b2de0ee6c990",
+                            "special_district_amount": 0.36,
+                            "special_district_taxable_amount": 36,
+                            "special_tax_rate": 0.01,
+                            "state_amount": 2.25,
+                            "state_sales_tax_rate": 0.0625,
+                            "state_taxable_amount": 36,
+                            "tax_collectable": 2.97,
+                            "taxable_amount": 36
+                        }
+                    ],
+                    "shipping": {
+                        "city_amount": 0,
+                        "city_tax_rate": 0.01,
+                        "city_taxable_amount": 0,
+                        "combined_tax_rate": 0.0825,
+                        "county_amount": 0,
+                        "county_tax_rate": 0,
+                        "county_taxable_amount": 0,
+                        "special_district_amount": 0,
+                        "special_tax_rate": 0.01,
+                        "special_taxable_amount": 0,
+                        "state_amount": 0,
+                        "state_sales_tax_rate": 0.0625,
+                        "state_taxable_amount": 0,
+                        "tax_collectable": 0,
+                        "taxable_amount": 0
+                    },
+                    "special_district_tax_collectable": 0.36,
+                    "special_district_taxable_amount": 36,
+                    "special_tax_rate": 0.01,
+                    "state_tax_collectable": 2.25,
+                    "state_tax_rate": 0.0625,
+                    "state_taxable_amount": 36,
+                    "tax_collectable": 2.97,
+                    "taxable_amount": 36
+                },
+                "freight_taxable": true,
+                "has_nexus": true,
+                "jurisdictions": {
+                    "city": "ROWLETT",
+                    "country": "US",
+                    "county": "DALLAS",
+                    "state": "TX"
+                },
+                "order_total_amount": 36,
+                "rate": 0.0625,
+                "shipping": 0,
+                "tax_source": "origin",
+                "taxable_amount": 36
+            }
+        },
+        "timezone": "America/Denver",
+        "source_from": "app",
+        "created_on": 1735748802,
+        "updated_on": 1740009601,
+        "code": "2501019BJFEF2U"
+    },
+    {
+        "order_status": "completed",
+        "payment_status": "paid",
+        "payment_method": "stripe",
+        "pricing": {
+            "items_total": 140,
+            "items_discount": 80,
+            "sub_total": 60,
+            "total": 64.95,
+            "affiliate_discount": 0,
+            "shipping": 0,
+            "shipping_rate": {
+                "_id": {
+                    "$oid": "66ccb98e7309d93d11732247"
+                },
+                "name": "Free Shipping",
+                "amount": 0,
+                "estimated_days": 4,
+                "conditions": {
+                    "is_turn_on": false,
+                    "type": "order_price",
+                    "min_price": 120,
+                    "max_price": 10000,
+                    "_id": {
+                        "$oid": "6708132c87952301f32f988c"
+                    }
+                },
+                "status": "active",
+                "created_on": 1724692878,
+                "updated_on": 1728582444,
+                "__v": 0,
+                "is_free_ship": true,
+                "id": {
+                    "$oid": "66ccb98e7309d93d11732247"
+                },
+                "servicelevel_name": "Free Shipping",
+                "is_flat_rate": true,
+                "provider": "nailzy"
+            },
+            "sales_tax": 4.95,
+            "sales_tax_rates": 0.0825,
+            "coupons": [],
+            "coupon_discount_amount": 0,
+            "tax_information": {
+                "amount_to_collect": 4.95,
+                "breakdown": {
+                    "city_tax_collectable": 0.6,
+                    "city_tax_rate": 0.01,
+                    "city_taxable_amount": 60,
+                    "combined_tax_rate": 0.0825,
+                    "county_tax_collectable": 0,
+                    "county_tax_rate": 0,
+                    "county_taxable_amount": 0,
+                    "line_items": [
+                        {
+                            "city_amount": 0.6,
+                            "city_tax_rate": 0.01,
+                            "city_taxable_amount": 60,
+                            "combined_tax_rate": 0.0825,
+                            "county_amount": 0,
+                            "county_tax_rate": 0,
+                            "county_taxable_amount": 0,
+                            "id": "675a6f7ebed0a5f8555c0fc9",
+                            "special_district_amount": 0.6,
+                            "special_district_taxable_amount": 60,
+                            "special_tax_rate": 0.01,
+                            "state_amount": 3.75,
+                            "state_sales_tax_rate": 0.0625,
+                            "state_taxable_amount": 60,
+                            "tax_collectable": 4.95,
+                            "taxable_amount": 60
+                        }
+                    ],
+                    "shipping": {
+                        "city_amount": 0,
+                        "city_tax_rate": 0.01,
+                        "city_taxable_amount": 0,
+                        "combined_tax_rate": 0.0825,
+                        "county_amount": 0,
+                        "county_tax_rate": 0,
+                        "county_taxable_amount": 0,
+                        "special_district_amount": 0,
+                        "special_tax_rate": 0.01,
+                        "special_taxable_amount": 0,
+                        "state_amount": 0,
+                        "state_sales_tax_rate": 0.0625,
+                        "state_taxable_amount": 0,
+                        "tax_collectable": 0,
+                        "taxable_amount": 0
+                    },
+                    "special_district_tax_collectable": 0.6,
+                    "special_district_taxable_amount": 60,
+                    "special_tax_rate": 0.01,
+                    "state_tax_collectable": 3.75,
+                    "state_tax_rate": 0.0625,
+                    "state_taxable_amount": 60,
+                    "tax_collectable": 4.95,
+                    "taxable_amount": 60
+                },
+                "freight_taxable": true,
+                "has_nexus": true,
+                "jurisdictions": {
+                    "city": "GARLAND",
+                    "country": "US",
+                    "county": "DALLAS",
+                    "state": "TX"
+                },
+                "order_total_amount": 60,
+                "rate": 0.0825,
+                "shipping": 0,
+                "tax_source": "origin",
+                "taxable_amount": 60
+            }
+        },
+        "timezone": "America/Denver",
+        "source_from": "app",
+        "created_on": 1735748802,
+        "updated_on": 1737244801,
+        "code": "2501014CTPMR83"
+    },
+    {
+        "order_status": "completed",
+        "payment_status": "paid",
+        "payment_method": "stripe",
+        "pricing": {
+            "items_total": 30.5,
+            "items_discount": 0,
+            "sub_total": 30.5,
+            "total": 21.35,
+            "affiliate_discount": 0,
+            "shipping": 0,
+            "shipping_rate": {
+                "_id": {
+                    "$oid": "66da0a43a9e201e3b567164e"
+                },
+                "seller_id": {
+                    "$oid": "66b3d610d6d2af98e07956d6"
+                },
+                "name": "Free Shipping",
+                "amount": 0,
+                "estimated_days": 4,
+                "conditions": {
+                    "is_turn_on": false,
+                    "type": "order_price",
+                    "min_price": 250,
+                    "max_price": 10000,
+                    "weight_unit": "lb",
+                    "_id": {
+                        "$oid": "66fc2ead2c7639e7113601a0"
+                    }
+                },
+                "status": "active",
+                "created_on": 1725565507,
+                "updated_on": 1727803053,
+                "__v": 0,
+                "is_free_ship": true,
+                "id": {
+                    "$oid": "66da0a43a9e201e3b567164e"
+                },
+                "servicelevel_name": "Free Shipping",
+                "is_flat_rate": true,
+                "provider": "nailzy"
+            },
+            "sales_tax": 0,
+            "sales_tax_rates": 0,
+            "coupons": [
+                {
+                    "id": "66e046e5798c36d31e74bf3e",
+                    "amount": 9.15,
+                    "discount_amount": 9.15,
+                    "provider": "nailzy",
+                    "code": "WELCOME30"
+                }
+            ],
+            "coupon_discount_amount": 9.15,
+            "tax_information": {
+                "amount_to_collect": 0,
+                "freight_taxable": true,
+                "has_nexus": false,
+                "order_total_amount": 30.5,
+                "rate": 0,
+                "shipping": 0,
+                "tax_source": null,
+                "taxable_amount": 0
+            }
+        },
+        "timezone": "America/Los_Angeles",
+        "source_from": "app",
+        "created_on": 1735756445,
+        "updated_on": 1737590402,
+        "code": "2501014LLHMEPT"
+    },
+    {
+        "order_status": "completed",
+        "payment_status": "paid",
+        "payment_method": "stripe",
+        "pricing": {
+            "items_total": 39.5,
+            "items_discount": 0,
+            "sub_total": 39.5,
+            "total": 27.65,
+            "affiliate_discount": 0,
+            "shipping": 0,
+            "shipping_rate": {
+                "_id": {
+                    "$oid": "66ccb98e7309d93d11732247"
+                },
+                "name": "Free Shipping",
+                "amount": 0,
+                "estimated_days": 4,
+                "conditions": {
+                    "is_turn_on": false,
+                    "type": "order_price",
+                    "min_price": 120,
+                    "max_price": 10000,
+                    "_id": {
+                        "$oid": "6708132c87952301f32f988c"
+                    }
+                },
+                "status": "active",
+                "created_on": 1724692878,
+                "updated_on": 1728582444,
+                "__v": 0,
+                "is_free_ship": true,
+                "id": {
+                    "$oid": "66ccb98e7309d93d11732247"
+                },
+                "servicelevel_name": "Free Shipping",
+                "is_flat_rate": true,
+                "provider": "nailzy"
+            },
+            "sales_tax": 0,
+            "sales_tax_rates": 0,
+            "coupons": [
+                {
+                    "id": "66e046e5798c36d31e74bf3e",
+                    "amount": 11.85,
+                    "discount_amount": 11.85,
+                    "provider": "nailzy",
+                    "code": "WELCOME30"
+                }
+            ],
+            "coupon_discount_amount": 11.85,
+            "tax_information": {
+                "amount_to_collect": 0,
+                "freight_taxable": true,
+                "has_nexus": false,
+                "order_total_amount": 39.5,
+                "rate": 0,
+                "shipping": 0,
+                "tax_source": null,
+                "taxable_amount": 0
+            }
+        },
+        "timezone": "America/Los_Angeles",
+        "source_from": "app",
+        "created_on": 1735756445,
+        "updated_on": 1737504001,
+        "code": "25010139FC1Z5P"
+    },
+    {
+        "order_status": "completed",
+        "payment_status": "paid",
+        "payment_method": "stripe",
+        "pricing": {
+            "items_total": 36,
+            "items_discount": 0,
+            "sub_total": 36,
+            "total": 20.97,
+            "affiliate_discount": 0,
+            "shipping": 0,
+            "shipping_rate": {
+                "_id": {
+                    "$oid": "66da0a43a9e201e3b567164e"
+                },
+                "seller_id": {
+                    "$oid": "66b3d610d6d2af98e07956d6"
+                },
+                "name": "Free Shipping",
+                "amount": 0,
+                "estimated_days": 4,
+                "conditions": {
+                    "is_turn_on": false,
+                    "type": "order_price",
+                    "min_price": 250,
+                    "max_price": 10000,
+                    "weight_unit": "lb",
+                    "_id": {
+                        "$oid": "66fc2ead2c7639e7113601a0"
+                    }
+                },
+                "status": "active",
+                "created_on": 1725565507,
+                "updated_on": 1727803053,
+                "__v": 0,
+                "is_free_ship": true,
+                "id": {
+                    "$oid": "66da0a43a9e201e3b567164e"
+                },
+                "servicelevel_name": "Free Shipping",
+                "is_flat_rate": true,
+                "provider": "nailzy"
+            },
+            "sales_tax": 2.97,
+            "sales_tax_rates": 0.0825,
+            "coupons": [
+                {
+                    "id": "66e046c5798c36d31e74ba76",
+                    "amount": 18,
+                    "discount_amount": 18,
+                    "provider": "nailzy",
+                    "code": "WELCOME50"
+                }
+            ],
+            "coupon_discount_amount": 18,
+            "tax_information": {
+                "amount_to_collect": 2.97,
+                "breakdown": {
+                    "city_tax_collectable": 0.36,
+                    "city_tax_rate": 0.01,
+                    "city_taxable_amount": 36,
+                    "combined_tax_rate": 0.0825,
+                    "county_tax_collectable": 0,
+                    "county_tax_rate": 0,
+                    "county_taxable_amount": 0,
+                    "line_items": [
+                        {
+                            "city_amount": 0.36,
+                            "city_tax_rate": 0.01,
+                            "city_taxable_amount": 36,
+                            "combined_tax_rate": 0.0825,
+                            "county_amount": 0,
+                            "county_tax_rate": 0,
+                            "county_taxable_amount": 0,
+                            "id": "6775a993f79f891bea65787e",
+                            "special_district_amount": 0.36,
+                            "special_district_taxable_amount": 36,
+                            "special_tax_rate": 0.01,
+                            "state_amount": 2.25,
+                            "state_sales_tax_rate": 0.0625,
+                            "state_taxable_amount": 36,
+                            "tax_collectable": 2.97,
+                            "taxable_amount": 36
+                        }
+                    ],
+                    "shipping": {
+                        "city_amount": 0,
+                        "city_tax_rate": 0.01,
+                        "city_taxable_amount": 0,
+                        "combined_tax_rate": 0.0825,
+                        "county_amount": 0,
+                        "county_tax_rate": 0,
+                        "county_taxable_amount": 0,
+                        "special_district_amount": 0,
+                        "special_tax_rate": 0.01,
+                        "special_taxable_amount": 0,
+                        "state_amount": 0,
+                        "state_sales_tax_rate": 0.0625,
+                        "state_taxable_amount": 0,
+                        "tax_collectable": 0,
+                        "taxable_amount": 0
+                    },
+                    "special_district_tax_collectable": 0.36,
+                    "special_district_taxable_amount": 36,
+                    "special_tax_rate": 0.01,
+                    "state_tax_collectable": 2.25,
+                    "state_tax_rate": 0.0625,
+                    "state_taxable_amount": 36,
+                    "tax_collectable": 2.97,
+                    "taxable_amount": 36
+                },
+                "freight_taxable": true,
+                "has_nexus": true,
+                "jurisdictions": {
+                    "city": "GARLAND",
+                    "country": "US",
+                    "county": "DALLAS",
+                    "state": "TX"
+                },
+                "order_total_amount": 36,
+                "rate": 0.0825,
+                "shipping": 0,
+                "tax_source": "origin",
+                "taxable_amount": 36
+            }
+        },
+        "timezone": "America/Denver",
+        "source_from": "app",
+        "created_on": 1735766527,
+        "updated_on": 1737417601,
+        "code": "250101UE6SSCMC"
+    },
+    {
+        "order_status": "canceled",
+        "payment_status": "unpaid",
+        "payment_method": "stripe",
+        "pricing": {
+            "items_total": 9.99,
+            "items_discount": 0,
+            "sub_total": 9.99,
+            "total": 9.99,
+            "affiliate_discount": 0,
+            "shipping": 0,
+            "shipping_rate": {
+                "_id": {
+                    "$oid": "66ccb98e7309d93d11732247"
+                },
+                "name": "Free Shipping",
+                "amount": 0,
+                "estimated_days": 4,
+                "conditions": {
+                    "is_turn_on": false,
+                    "type": "order_price",
+                    "min_price": 120,
+                    "max_price": 10000,
+                    "_id": {
+                        "$oid": "6708132c87952301f32f988c"
+                    }
+                },
+                "status": "active",
+                "created_on": 1724692878,
+                "updated_on": 1728582444,
+                "__v": 0,
+                "is_free_ship": true,
+                "id": {
+                    "$oid": "66ccb98e7309d93d11732247"
+                },
+                "servicelevel_name": "Free Shipping",
+                "is_flat_rate": true,
+                "provider": "nailzy"
+            },
+            "sales_tax": 0,
+            "sales_tax_rates": 0,
+            "coupons": [],
+            "coupon_discount_amount": 0,
+            "tax_information": {
+                "amount_to_collect": 0,
+                "freight_taxable": true,
+                "has_nexus": false,
+                "order_total_amount": 9.99,
+                "rate": 0,
+                "shipping": 0,
+                "tax_source": null,
+                "taxable_amount": 0
+            }
+        },
+        "timezone": "America/New_York",
+        "source_from": "app",
+        "created_on": 1735766897,
+        "updated_on": 1735766930,
+        "code": "250101IWANK2M7"
+    },
+    {
+        "order_status": "canceled",
+        "payment_status": "unpaid",
+        "payment_method": "stripe",
+        "pricing": {
+            "items_total": 40,
+            "items_discount": 0,
+            "sub_total": 40,
+            "total": 40,
+            "affiliate_discount": 0,
+            "shipping": 0,
+            "shipping_rate": {
+                "_id": {
+                    "$oid": "66da0a43a9e201e3b567164e"
+                },
+                "seller_id": {
+                    "$oid": "66b3d610d6d2af98e07956d6"
+                },
+                "name": "Free Shipping",
+                "amount": 0,
+                "estimated_days": 4,
+                "conditions": {
+                    "is_turn_on": false,
+                    "type": "order_price",
+                    "min_price": 250,
+                    "max_price": 10000,
+                    "weight_unit": "lb",
+                    "_id": {
+                        "$oid": "66fc2ead2c7639e7113601a0"
+                    }
+                },
+                "status": "active",
+                "created_on": 1725565507,
+                "updated_on": 1727803053,
+                "__v": 0,
+                "is_free_ship": true,
+                "id": {
+                    "$oid": "66da0a43a9e201e3b567164e"
+                },
+                "servicelevel_name": "Free Shipping",
+                "is_flat_rate": true,
+                "provider": "nailzy"
+            },
+            "sales_tax": 0,
+            "sales_tax_rates": 0,
+            "coupons": [],
+            "coupon_discount_amount": 0,
+            "tax_information": {
+                "amount_to_collect": 0,
+                "freight_taxable": true,
+                "has_nexus": false,
+                "order_total_amount": 40,
+                "rate": 0,
+                "shipping": 0,
+                "tax_source": null,
+                "taxable_amount": 0
+            }
+        },
+        "timezone": "America/New_York",
+        "source_from": "app",
+        "created_on": 1735766897,
+        "updated_on": 1735766930,
+        "code": "250101E252W0PR"
+    },
+    {
+        "order_status": "completed",
+        "payment_status": "paid",
+        "payment_method": "stripe",
+        "pricing": {
+            "items_total": 7.5,
+            "items_discount": 0,
+            "sub_total": 7.5,
+            "total": 5.25,
+            "affiliate_discount": 0,
+            "shipping": 0,
+            "shipping_rate": {
+                "_id": {
+                    "$oid": "66fc2df32c7639e71135c3e9"
+                },
+                "seller_id": {
+                    "$oid": "66b3d5a3d6d2af98e0795578"
+                },
+                "name": "Free Shipping",
+                "amount": 0,
+                "estimated_days": 4,
+                "conditions": {
+                    "is_turn_on": false,
+                    "type": "order_price",
+                    "min_price": 0,
+                    "max_price": 0,
+                    "weight_unit": "lb",
+                    "_id": {
+                        "$oid": "66fc2df32c7639e71135c3ea"
+                    }
+                },
+                "status": "active",
+                "is_free_ship": true,
+                "created_on": 1727802867,
+                "updated_on": 1727802867,
+                "__v": 0,
+                "id": {
+                    "$oid": "66fc2df32c7639e71135c3e9"
+                },
+                "servicelevel_name": "Free Shipping",
+                "is_flat_rate": true,
+                "provider": "nailzy"
+            },
+            "sales_tax": 0,
+            "sales_tax_rates": 0,
+            "coupons": [
+                {
+                    "id": "66e1f1278eeef3eb5cc023af",
+                    "amount": 2.25,
+                    "discount_amount": 2.25,
+                    "provider": "nailzy",
+                    "code": "NAILZY30"
+                }
+            ],
+            "coupon_discount_amount": 2.25,
+            "tax_information": {
+                "amount_to_collect": 0,
+                "freight_taxable": false,
+                "has_nexus": false,
+                "order_total_amount": 7.5,
+                "rate": 0,
+                "shipping": 0,
+                "tax_source": null,
+                "taxable_amount": 0
+            }
+        },
+        "timezone": "America/New_York",
+        "source_from": "app",
+        "created_on": 1735766951,
+        "updated_on": 1737763200,
+        "code": "250101G3YT3UWA"
+    },
+    {
+        "order_status": "canceled",
+        "payment_status": "refunded",
+        "payment_method": "stripe",
+        "pricing": {
+            "items_total": 5.5,
+            "items_discount": 1.72,
+            "sub_total": 3.78,
+            "total": 2.65,
+            "affiliate_discount": 0,
+            "shipping": 0,
+            "shipping_rate": {
+                "_id": {
+                    "$oid": "66da0da6a9e201e3b567666b"
+                },
+                "seller_id": {
+                    "$oid": "66cf82caffc4c15fe5ebbd78"
+                },
+                "name": "Free Shipping",
+                "amount": 0,
+                "estimated_days": 4,
+                "conditions": {
+                    "is_turn_on": false,
+                    "type": "order_price",
+                    "min_price": 250,
+                    "max_price": 10000,
+                    "weight_unit": "lb",
+                    "_id": {
+                        "$oid": "66fc2e0f2c7639e71135d1de"
+                    }
+                },
+                "status": "active",
+                "created_on": 1725566374,
+                "updated_on": 1727802895,
+                "__v": 0,
+                "is_free_ship": true,
+                "id": {
+                    "$oid": "66da0da6a9e201e3b567666b"
+                },
+                "servicelevel_name": "Free Shipping",
+                "is_flat_rate": true,
+                "provider": "nailzy"
+            },
+            "sales_tax": 0,
+            "sales_tax_rates": 0,
+            "coupons": [
+                {
+                    "id": "66e1f1278eeef3eb5cc023af",
+                    "amount": 1.13,
+                    "discount_amount": 1.13,
+                    "provider": "nailzy",
+                    "code": "NAILZY30"
+                }
+            ],
+            "coupon_discount_amount": 1.13,
+            "tax_information": {
+                "amount_to_collect": 0,
+                "freight_taxable": false,
+                "has_nexus": false,
+                "order_total_amount": 3.78,
+                "rate": 0,
+                "shipping": 0,
+                "tax_source": null,
+                "taxable_amount": 0
+            }
+        },
+        "timezone": "America/New_York",
+        "source_from": "app",
+        "created_on": 1735766951,
+        "updated_on": 1735943795,
+        "code": "250101T8IG96MD"
+    },
+    {
+        "order_status": "completed",
+        "payment_status": "paid",
+        "payment_method": "stripe",
+        "pricing": {
+            "items_total": 245.75,
+            "items_discount": 60,
+            "sub_total": 185.75,
+            "total": 180.75,
+            "affiliate_discount": 0,
+            "shipping": 0,
+            "shipping_rate": {
+                "_id": {
+                    "$oid": "66ccb98e7309d93d11732247"
+                },
+                "name": "Free Shipping",
+                "amount": 0,
+                "estimated_days": 4,
+                "conditions": {
+                    "is_turn_on": false,
+                    "type": "order_price",
+                    "min_price": 120,
+                    "max_price": 10000,
+                    "_id": {
+                        "$oid": "6708132c87952301f32f988c"
+                    }
+                },
+                "status": "active",
+                "created_on": 1724692878,
+                "updated_on": 1728582444,
+                "__v": 0,
+                "is_free_ship": true,
+                "id": {
+                    "$oid": "66ccb98e7309d93d11732247"
+                },
+                "servicelevel_name": "Free Shipping",
+                "is_flat_rate": true,
+                "provider": "nailzy"
+            },
+            "sales_tax": 0,
+            "sales_tax_rates": 0,
+            "coupons": [
+                {
+                    "id": "66e1f1278eeef3eb5cc023af",
+                    "amount": 55.73,
+                    "discount_amount": 5,
+                    "provider": "nailzy",
+                    "code": "NAILZY30"
+                }
+            ],
+            "coupon_discount_amount": 5,
+            "tax_information": {
+                "amount_to_collect": 0,
+                "freight_taxable": false,
+                "has_nexus": false,
+                "order_total_amount": 185.75,
+                "rate": 0,
+                "shipping": 0,
+                "tax_source": null,
+                "taxable_amount": 0
+            }
+        },
+        "timezone": "America/New_York",
+        "source_from": "app",
+        "created_on": 1735766951,
+        "updated_on": 1738022401,
+        "code": "250101INHJN6VT"
+    },
+    {
+        "order_status": "completed",
+        "payment_status": "paid",
+        "payment_method": "stripe",
+        "pricing": {
+            "items_total": 11.5,
+            "items_discount": 0,
+            "sub_total": 11.5,
+            "total": 11.5,
+            "affiliate_discount": 0,
+            "shipping": 0,
+            "shipping_rate": {
+                "_id": {
+                    "$oid": "66fc2df32c7639e71135c3e9"
+                },
+                "seller_id": {
+                    "$oid": "66b3d5a3d6d2af98e0795578"
+                },
+                "name": "Free Shipping",
+                "amount": 0,
+                "estimated_days": 4,
+                "conditions": {
+                    "is_turn_on": false,
+                    "type": "order_price",
+                    "min_price": 0,
+                    "max_price": 0,
+                    "weight_unit": "lb",
+                    "_id": {
+                        "$oid": "66fc2df32c7639e71135c3ea"
+                    }
+                },
+                "status": "active",
+                "is_free_ship": true,
+                "created_on": 1727802867,
+                "updated_on": 1727802867,
+                "__v": 0,
+                "id": {
+                    "$oid": "66fc2df32c7639e71135c3e9"
+                },
+                "servicelevel_name": "Free Shipping",
+                "is_flat_rate": true,
+                "provider": "nailzy"
+            },
+            "sales_tax": 0,
+            "sales_tax_rates": 0,
+            "coupons": [],
+            "coupon_discount_amount": 0,
+            "tax_information": {
+                "amount_to_collect": 0,
+                "freight_taxable": false,
+                "has_nexus": false,
+                "order_total_amount": 11.5,
+                "rate": 0,
+                "shipping": 0,
+                "tax_source": null,
+                "taxable_amount": 0
+            }
+        },
+        "timezone": "America/Denver",
+        "source_from": "app",
+        "created_on": 1735774857,
+        "updated_on": 1737504002,
+        "code": "250101823UGK3D"
+    },
+    {
+        "order_status": "completed",
+        "payment_status": "paid",
+        "payment_method": "stripe",
+        "pricing": {
+            "items_total": 39.99,
+            "items_discount": 0,
+            "sub_total": 39.99,
+            "total": 19.99,
+            "affiliate_discount": 0,
+            "shipping": 0,
+            "shipping_rate": {
+                "_id": {
+                    "$oid": "66ccb98e7309d93d11732247"
+                },
+                "name": "Free Shipping",
+                "amount": 0,
+                "estimated_days": 4,
+                "conditions": {
+                    "is_turn_on": false,
+                    "type": "order_price",
+                    "min_price": 120,
+                    "max_price": 10000,
+                    "_id": {
+                        "$oid": "6708132c87952301f32f988c"
+                    }
+                },
+                "status": "active",
+                "created_on": 1724692878,
+                "updated_on": 1728582444,
+                "__v": 0,
+                "is_free_ship": true,
+                "id": {
+                    "$oid": "66ccb98e7309d93d11732247"
+                },
+                "servicelevel_name": "Free Shipping",
+                "is_flat_rate": true,
+                "provider": "nailzy"
+            },
+            "sales_tax": 0,
+            "sales_tax_rates": 0,
+            "coupons": [
+                {
+                    "id": "66e046c5798c36d31e74ba76",
+                    "amount": 20,
+                    "discount_amount": 20,
+                    "provider": "nailzy",
+                    "code": "WELCOME50"
+                }
+            ],
+            "coupon_discount_amount": 20,
+            "tax_information": {
+                "amount_to_collect": 0,
+                "freight_taxable": false,
+                "has_nexus": false,
+                "order_total_amount": 39.99,
+                "rate": 0,
+                "shipping": 0,
+                "tax_source": null,
+                "taxable_amount": 0
+            }
+        },
+        "timezone": "America/New_York",
+        "source_from": "app",
+        "created_on": 1735775830,
+        "updated_on": 1737763200,
+        "code": "250101PXIEEBBK"
+    },
+    {
+        "order_status": "completed",
+        "payment_status": "paid",
+        "payment_method": "stripe",
+        "pricing": {
+            "items_total": 119.9,
+            "items_discount": 6.24,
+            "sub_total": 113.66,
+            "total": 98.66,
+            "affiliate_discount": 0,
+            "shipping": 0,
+            "shipping_rate": {
+                "_id": {
+                    "$oid": "66da0da6a9e201e3b567666b"
+                },
+                "seller_id": {
+                    "$oid": "66cf82caffc4c15fe5ebbd78"
+                },
+                "name": "Free Shipping",
+                "amount": 0,
+                "estimated_days": 4,
+                "conditions": {
+                    "is_turn_on": false,
+                    "type": "order_price",
+                    "min_price": 250,
+                    "max_price": 10000,
+                    "weight_unit": "lb",
+                    "_id": {
+                        "$oid": "66fc2e0f2c7639e71135d1de"
+                    }
+                },
+                "status": "active",
+                "created_on": 1725566374,
+                "updated_on": 1727802895,
+                "__v": 0,
+                "is_free_ship": true,
+                "id": {
+                    "$oid": "66da0da6a9e201e3b567666b"
+                },
+                "servicelevel_name": "Free Shipping",
+                "is_flat_rate": true,
+                "provider": "nailzy"
+            },
+            "sales_tax": 0,
+            "sales_tax_rates": 0,
+            "coupons": [
+                {
+                    "id": "66e1f1278eeef3eb5cc023af",
+                    "amount": 34.1,
+                    "discount_amount": 15,
+                    "provider": "nailzy",
+                    "code": "NAILZY30"
+                }
+            ],
+            "coupon_discount_amount": 15,
+            "tax_information": {
+                "amount_to_collect": 0,
+                "freight_taxable": false,
+                "has_nexus": false,
+                "order_total_amount": 113.66,
+                "rate": 0,
+                "shipping": 0,
+                "tax_source": null,
+                "taxable_amount": 0
+            }
+        },
+        "timezone": "America/New_York",
+        "source_from": "app",
+        "created_on": 1735775914,
+        "updated_on": 1738108800,
+        "code": "250101U8V3OZSB"
+    },
+    {
+        "order_status": "completed",
+        "payment_status": "paid",
+        "payment_method": "stripe",
+        "pricing": {
+            "items_total": 8,
+            "items_discount": 0,
+            "sub_total": 8,
+            "total": 8,
+            "affiliate_discount": 0,
+            "shipping": 0,
+            "shipping_rate": {
+                "_id": {
+                    "$oid": "66da0a43a9e201e3b567164e"
+                },
+                "seller_id": {
+                    "$oid": "66b3d610d6d2af98e07956d6"
+                },
+                "name": "Free Shipping",
+                "amount": 0,
+                "estimated_days": 4,
+                "conditions": {
+                    "is_turn_on": false,
+                    "type": "order_price",
+                    "min_price": 250,
+                    "max_price": 10000,
+                    "weight_unit": "lb",
+                    "_id": {
+                        "$oid": "66fc2ead2c7639e7113601a0"
+                    }
+                },
+                "status": "active",
+                "created_on": 1725565507,
+                "updated_on": 1727803053,
+                "__v": 0,
+                "is_free_ship": true,
+                "id": {
+                    "$oid": "66da0a43a9e201e3b567164e"
+                },
+                "servicelevel_name": "Free Shipping",
+                "is_flat_rate": true,
+                "provider": "nailzy"
+            },
+            "sales_tax": 0,
+            "sales_tax_rates": 0,
+            "coupons": [],
+            "coupon_discount_amount": 0,
+            "tax_information": {
+                "amount_to_collect": 0,
+                "freight_taxable": false,
+                "has_nexus": false,
+                "order_total_amount": 8,
+                "rate": 0,
+                "shipping": 0,
+                "tax_source": null,
+                "taxable_amount": 0
+            }
+        },
+        "timezone": "America/New_York",
+        "source_from": "app",
+        "created_on": 1735776365,
+        "updated_on": 1737417601,
+        "code": "250102RYKT4Y4S"
+    },
+    {
+        "order_status": "completed",
+        "payment_status": "paid",
+        "payment_method": "stripe",
+        "pricing": {
+            "items_total": 25,
+            "items_discount": 0,
+            "sub_total": 25,
+            "total": 25,
+            "affiliate_discount": 0,
+            "shipping": 0,
+            "shipping_rate": {
+                "_id": {
+                    "$oid": "66ccb98e7309d93d11732247"
+                },
+                "name": "Free Shipping",
+                "amount": 0,
+                "estimated_days": 4,
+                "conditions": {
+                    "is_turn_on": false,
+                    "type": "order_price",
+                    "min_price": 120,
+                    "max_price": 10000,
+                    "_id": {
+                        "$oid": "6708132c87952301f32f988c"
+                    }
+                },
+                "status": "active",
+                "created_on": 1724692878,
+                "updated_on": 1728582444,
+                "__v": 0,
+                "is_free_ship": true,
+                "id": {
+                    "$oid": "66ccb98e7309d93d11732247"
+                },
+                "servicelevel_name": "Free Shipping",
+                "is_flat_rate": true,
+                "provider": "nailzy"
+            },
+            "sales_tax": 0,
+            "sales_tax_rates": 0,
+            "coupons": [],
+            "coupon_discount_amount": 0,
+            "tax_information": {
+                "amount_to_collect": 0,
+                "freight_taxable": false,
+                "has_nexus": false,
+                "order_total_amount": 25,
+                "rate": 0,
+                "shipping": 0,
+                "tax_source": null,
+                "taxable_amount": 0
+            }
+        },
+        "timezone": "America/New_York",
+        "source_from": "app",
+        "created_on": 1735776483,
+        "updated_on": 1737504002,
+        "code": "250102B6M8R8TM"
+    },
+    {
+        "order_status": "canceled",
+        "payment_status": "unpaid",
+        "payment_method": "stripe",
+        "pricing": {
+            "items_total": 8,
+            "items_discount": 0,
+            "sub_total": 8,
+            "total": 8,
+            "affiliate_discount": 0,
+            "shipping": 0,
+            "shipping_rate": {
+                "_id": {
+                    "$oid": "66da0a43a9e201e3b567164e"
+                },
+                "seller_id": {
+                    "$oid": "66b3d610d6d2af98e07956d6"
+                },
+                "name": "Free Shipping",
+                "amount": 0,
+                "estimated_days": 4,
+                "conditions": {
+                    "is_turn_on": false,
+                    "type": "order_price",
+                    "min_price": 250,
+                    "max_price": 10000,
+                    "weight_unit": "lb",
+                    "_id": {
+                        "$oid": "66fc2ead2c7639e7113601a0"
+                    }
+                },
+                "status": "active",
+                "created_on": 1725565507,
+                "updated_on": 1727803053,
+                "__v": 0,
+                "is_free_ship": true,
+                "id": {
+                    "$oid": "66da0a43a9e201e3b567164e"
+                },
+                "servicelevel_name": "Free Shipping",
+                "is_flat_rate": true,
+                "provider": "nailzy"
+            },
+            "sales_tax": 0,
+            "sales_tax_rates": 0,
+            "coupons": [],
+            "coupon_discount_amount": 0,
+            "tax_information": {
+                "amount_to_collect": 0,
+                "freight_taxable": true,
+                "has_nexus": false,
+                "order_total_amount": 8,
+                "rate": 0,
+                "shipping": 0,
+                "tax_source": null,
+                "taxable_amount": 0
+            }
+        },
+        "timezone": "America/New_York",
+        "source_from": "app",
+        "created_on": 1735778858,
+        "updated_on": 1735779299,
+        "code": "250102TUOCNO46"
+    },
+    {
+        "order_status": "canceled",
+        "payment_status": "unpaid",
+        "payment_method": "stripe",
+        "pricing": {
+            "items_total": 22.73,
+            "items_discount": 19.76,
+            "sub_total": 2.97,
+            "total": 2.97,
+            "affiliate_discount": 0,
+            "shipping": 0,
+            "shipping_rate": {
+                "_id": {
+                    "$oid": "66ccb98e7309d93d11732247"
+                },
+                "name": "Free Shipping",
+                "amount": 0,
+                "estimated_days": 4,
+                "conditions": {
+                    "is_turn_on": false,
+                    "type": "order_price",
+                    "min_price": 120,
+                    "max_price": 10000,
+                    "_id": {
+                        "$oid": "6708132c87952301f32f988c"
+                    }
+                },
+                "status": "active",
+                "created_on": 1724692878,
+                "updated_on": 1728582444,
+                "__v": 0,
+                "is_free_ship": true,
+                "id": {
+                    "$oid": "66ccb98e7309d93d11732247"
+                },
+                "servicelevel_name": "Free Shipping",
+                "is_flat_rate": true,
+                "provider": "nailzy"
+            },
+            "sales_tax": 0,
+            "sales_tax_rates": 0,
+            "coupons": [],
+            "coupon_discount_amount": 0,
+            "tax_information": {
+                "amount_to_collect": 0,
+                "freight_taxable": true,
+                "has_nexus": false,
+                "order_total_amount": 2.97,
+                "rate": 0,
+                "shipping": 0,
+                "tax_source": null,
+                "taxable_amount": 0
+            }
+        },
+        "timezone": "America/New_York",
+        "source_from": "app",
+        "created_on": 1735778858,
+        "updated_on": 1735779299,
+        "code": "250102VQD77TH0"
+    },
+    {
+        "order_status": "canceled",
+        "payment_status": "unpaid",
+        "payment_method": "stripe",
+        "pricing": {
+            "items_total": 10.9,
+            "items_discount": 0,
+            "sub_total": 10.9,
+            "total": 10.9,
+            "affiliate_discount": 0,
+            "shipping": 0,
+            "shipping_rate": {
+                "_id": {
+                    "$oid": "66ccb98e7309d93d11732247"
+                },
+                "name": "Free Shipping",
+                "amount": 0,
+                "estimated_days": 4,
+                "conditions": {
+                    "is_turn_on": false,
+                    "type": "order_price",
+                    "min_price": 120,
+                    "max_price": 10000,
+                    "_id": {
+                        "$oid": "6708132c87952301f32f988c"
+                    }
+                },
+                "status": "active",
+                "created_on": 1724692878,
+                "updated_on": 1728582444,
+                "__v": 0,
+                "is_free_ship": true,
+                "id": {
+                    "$oid": "66ccb98e7309d93d11732247"
+                },
+                "servicelevel_name": "Free Shipping",
+                "is_flat_rate": true,
+                "provider": "nailzy"
+            },
+            "sales_tax": 0,
+            "sales_tax_rates": 0,
+            "coupons": [],
+            "coupon_discount_amount": 0,
+            "tax_information": {
+                "amount_to_collect": 0,
+                "freight_taxable": true,
+                "has_nexus": false,
+                "order_total_amount": 10.9,
+                "rate": 0,
+                "shipping": 0,
+                "tax_source": null,
+                "taxable_amount": 0
+            }
+        },
+        "timezone": "America/New_York",
+        "source_from": "app",
+        "created_on": 1735778858,
+        "updated_on": 1735779299,
+        "code": "2501024NP60OBU"
+    },
+    {
+        "order_status": "canceled",
+        "payment_status": "unpaid",
+        "payment_method": "stripe",
+        "pricing": {
+            "items_total": 63,
+            "items_discount": 0,
+            "sub_total": 63,
+            "total": 63,
+            "affiliate_discount": 0,
+            "shipping": 0,
+            "shipping_rate": {
+                "_id": {
+                    "$oid": "66ccb98e7309d93d11732247"
+                },
+                "name": "Free Shipping",
+                "amount": 0,
+                "estimated_days": 4,
+                "conditions": {
+                    "is_turn_on": false,
+                    "type": "order_price",
+                    "min_price": 120,
+                    "max_price": 10000,
+                    "_id": {
+                        "$oid": "6708132c87952301f32f988c"
+                    }
+                },
+                "status": "active",
+                "created_on": 1724692878,
+                "updated_on": 1728582444,
+                "__v": 0,
+                "is_free_ship": true,
+                "id": {
+                    "$oid": "66ccb98e7309d93d11732247"
+                },
+                "servicelevel_name": "Free Shipping",
+                "is_flat_rate": true,
+                "provider": "nailzy"
+            },
+            "sales_tax": 0,
+            "sales_tax_rates": 0,
+            "coupons": [],
+            "coupon_discount_amount": 0,
+            "tax_information": {
+                "amount_to_collect": 0,
+                "freight_taxable": true,
+                "has_nexus": false,
+                "order_total_amount": 63,
+                "rate": 0,
+                "shipping": 0,
+                "tax_source": null,
+                "taxable_amount": 0
+            }
+        },
+        "timezone": "America/New_York",
+        "source_from": "app",
+        "created_on": 1735778858,
+        "updated_on": 1735779299,
+        "code": "250102GY08B4WP"
+    },
+    {
+        "order_status": "canceled",
+        "payment_status": "unpaid",
+        "payment_method": "stripe",
+        "pricing": {
+            "items_total": 16.29,
+            "items_discount": 0,
+            "sub_total": 16.29,
+            "total": 16.29,
+            "affiliate_discount": 0,
+            "shipping": 0,
+            "shipping_rate": {
+                "_id": {
+                    "$oid": "66ccb98e7309d93d11732247"
+                },
+                "name": "Free Shipping",
+                "amount": 0,
+                "estimated_days": 4,
+                "conditions": {
+                    "is_turn_on": false,
+                    "type": "order_price",
+                    "min_price": 120,
+                    "max_price": 10000,
+                    "_id": {
+                        "$oid": "6708132c87952301f32f988c"
+                    }
+                },
+                "status": "active",
+                "created_on": 1724692878,
+                "updated_on": 1728582444,
+                "__v": 0,
+                "is_free_ship": true,
+                "id": {
+                    "$oid": "66ccb98e7309d93d11732247"
+                },
+                "servicelevel_name": "Free Shipping",
+                "is_flat_rate": true,
+                "provider": "nailzy"
+            },
+            "sales_tax": 0,
+            "sales_tax_rates": 0,
+            "coupons": [],
+            "coupon_discount_amount": 0,
+            "tax_information": {
+                "amount_to_collect": 0,
+                "freight_taxable": true,
+                "has_nexus": false,
+                "order_total_amount": 16.29,
+                "rate": 0,
+                "shipping": 0,
+                "tax_source": null,
+                "taxable_amount": 0
+            }
+        },
+        "timezone": "America/New_York",
+        "source_from": "app",
+        "created_on": 1735779191,
+        "updated_on": 1735779314,
+        "code": "250102IC0BUTT5"
+    },
+    {
+        "order_status": "canceled",
+        "payment_status": "unpaid",
+        "payment_method": "stripe",
+        "pricing": {
+            "items_total": 13.99,
+            "items_discount": 0,
+            "sub_total": 13.99,
+            "total": 13.99,
+            "affiliate_discount": 0,
+            "shipping": 0,
+            "shipping_rate": {
+                "_id": {
+                    "$oid": "66ccb98e7309d93d11732247"
+                },
+                "name": "Free Shipping",
+                "amount": 0,
+                "estimated_days": 4,
+                "conditions": {
+                    "is_turn_on": false,
+                    "type": "order_price",
+                    "min_price": 120,
+                    "max_price": 10000,
+                    "_id": {
+                        "$oid": "6708132c87952301f32f988c"
+                    }
+                },
+                "status": "active",
+                "created_on": 1724692878,
+                "updated_on": 1728582444,
+                "__v": 0,
+                "is_free_ship": true,
+                "id": {
+                    "$oid": "66ccb98e7309d93d11732247"
+                },
+                "servicelevel_name": "Free Shipping",
+                "is_flat_rate": true,
+                "provider": "nailzy"
+            },
+            "sales_tax": 0,
+            "sales_tax_rates": 0,
+            "coupons": [],
+            "coupon_discount_amount": 0,
+            "tax_information": {
+                "amount_to_collect": 0,
+                "freight_taxable": true,
+                "has_nexus": false,
+                "order_total_amount": 13.99,
+                "rate": 0,
+                "shipping": 0,
+                "tax_source": null,
+                "taxable_amount": 0
+            }
+        },
+        "timezone": "America/Los_Angeles",
+        "source_from": "app",
+        "created_on": 1735779246,
+        "updated_on": 1735866000,
+        "code": "250102N951QSED"
+    },
+    {
+        "order_status": "canceled",
+        "payment_status": "unpaid",
+        "payment_method": "stripe",
+        "pricing": {
+            "items_total": 37.5,
+            "items_discount": 18,
+            "sub_total": 19.5,
+            "total": 19.5,
+            "affiliate_discount": 0,
+            "shipping": 0,
+            "shipping_rate": {
+                "_id": {
+                    "$oid": "66ccb98e7309d93d11732247"
+                },
+                "name": "Free Shipping",
+                "amount": 0,
+                "estimated_days": 4,
+                "conditions": {
+                    "is_turn_on": false,
+                    "type": "order_price",
+                    "min_price": 120,
+                    "max_price": 10000,
+                    "_id": {
+                        "$oid": "6708132c87952301f32f988c"
+                    }
+                },
+                "status": "active",
+                "created_on": 1724692878,
+                "updated_on": 1728582444,
+                "__v": 0,
+                "is_free_ship": true,
+                "id": {
+                    "$oid": "66ccb98e7309d93d11732247"
+                },
+                "servicelevel_name": "Free Shipping",
+                "is_flat_rate": true,
+                "provider": "nailzy"
+            },
+            "sales_tax": 0,
+            "sales_tax_rates": 0,
+            "coupons": [],
+            "coupon_discount_amount": 0,
+            "tax_information": {
+                "amount_to_collect": 0,
+                "freight_taxable": true,
+                "has_nexus": false,
+                "order_total_amount": 19.5,
+                "rate": 0,
+                "shipping": 0,
+                "tax_source": null,
+                "taxable_amount": 0
+            }
+        },
+        "timezone": "America/Los_Angeles",
+        "source_from": "app",
+        "created_on": 1735779246,
+        "updated_on": 1735866000,
+        "code": "250102HXQ9XFZW"
+    },
+    {
+        "order_status": "canceled",
+        "payment_status": "unpaid",
+        "payment_method": "stripe",
+        "pricing": {
+            "items_total": 17.95,
+            "items_discount": 11.2,
+            "sub_total": 6.75,
+            "total": 6.75,
+            "affiliate_discount": 0,
+            "shipping": 0,
+            "shipping_rate": {
+                "_id": {
+                    "$oid": "66ccb98e7309d93d11732247"
+                },
+                "name": "Free Shipping",
+                "amount": 0,
+                "estimated_days": 4,
+                "conditions": {
+                    "is_turn_on": false,
+                    "type": "order_price",
+                    "min_price": 120,
+                    "max_price": 10000,
+                    "_id": {
+                        "$oid": "6708132c87952301f32f988c"
+                    }
+                },
+                "status": "active",
+                "created_on": 1724692878,
+                "updated_on": 1728582444,
+                "__v": 0,
+                "is_free_ship": true,
+                "id": {
+                    "$oid": "66ccb98e7309d93d11732247"
+                },
+                "servicelevel_name": "Free Shipping",
+                "is_flat_rate": true,
+                "provider": "nailzy"
+            },
+            "sales_tax": 0,
+            "sales_tax_rates": 0,
+            "coupons": [],
+            "coupon_discount_amount": 0,
+            "tax_information": {
+                "amount_to_collect": 0,
+                "freight_taxable": true,
+                "has_nexus": false,
+                "order_total_amount": 6.75,
+                "rate": 0,
+                "shipping": 0,
+                "tax_source": null,
+                "taxable_amount": 0
+            }
+        },
+        "timezone": "America/Los_Angeles",
+        "source_from": "app",
+        "created_on": 1735779246,
+        "updated_on": 1735866000,
+        "code": "250102THDLVGTU"
+    },
+    {
+        "order_status": "canceled",
+        "payment_status": "unpaid",
+        "payment_method": "stripe",
+        "pricing": {
+            "items_total": 10,
+            "items_discount": 0,
+            "sub_total": 10,
+            "total": 14.99,
+            "affiliate_discount": 0,
+            "shipping": 4.99,
+            "shipping_rate": {
+                "_id": {
+                    "$oid": "67743cd7f7eac7f508f599f2"
+                },
+                "seller_id": {
+                    "$oid": "66ffc3edd71a9ae5cb8d486f"
+                },
+                "name": "Flat Rate",
+                "amount": 4.99,
+                "estimated_days": 3,
+                "conditions": {
+                    "is_turn_on": true,
+                    "type": "order_price",
+                    "min_price": 0,
+                    "max_price": 149.99,
+                    "_id": {
+                        "$oid": "67743cd7f7eac7f508f599f3"
+                    }
+                },
+                "status": "active",
+                "is_free_ship": false,
+                "created_on": 1735670999,
+                "updated_on": 1735670999,
+                "__v": 0,
+                "id": {
+                    "$oid": "67743cd7f7eac7f508f599f2"
+                },
+                "servicelevel_name": "Flat Rate",
+                "is_flat_rate": true,
+                "provider": "nailzy"
+            },
+            "sales_tax": 0,
+            "sales_tax_rates": 0,
+            "coupons": [],
+            "coupon_discount_amount": 0,
+            "tax_information": {
+                "amount_to_collect": 0,
+                "freight_taxable": true,
+                "has_nexus": false,
+                "order_total_amount": 14.99,
+                "rate": 0,
+                "shipping": 4.99,
+                "tax_source": null,
+                "taxable_amount": 0
+            }
+        },
+        "timezone": "America/Los_Angeles",
+        "source_from": "app",
+        "created_on": 1735779246,
+        "updated_on": 1735866000,
+        "code": "250102INBJNLG5"
+    },
+    {
+        "order_status": "canceled",
+        "payment_status": "unpaid",
+        "payment_method": "stripe",
+        "pricing": {
+            "items_total": 45,
+            "items_discount": 0,
+            "sub_total": 45,
+            "total": 45,
+            "affiliate_discount": 0,
+            "shipping": 0,
+            "shipping_rate": {
+                "_id": {
+                    "$oid": "66da0a43a9e201e3b567164e"
+                },
+                "seller_id": {
+                    "$oid": "66b3d610d6d2af98e07956d6"
+                },
+                "name": "Free Shipping",
+                "amount": 0,
+                "estimated_days": 4,
+                "conditions": {
+                    "is_turn_on": false,
+                    "type": "order_price",
+                    "min_price": 250,
+                    "max_price": 10000,
+                    "weight_unit": "lb",
+                    "_id": {
+                        "$oid": "66fc2ead2c7639e7113601a0"
+                    }
+                },
+                "status": "active",
+                "created_on": 1725565507,
+                "updated_on": 1727803053,
+                "__v": 0,
+                "is_free_ship": true,
+                "id": {
+                    "$oid": "66da0a43a9e201e3b567164e"
+                },
+                "servicelevel_name": "Free Shipping",
+                "is_flat_rate": true,
+                "provider": "nailzy"
+            },
+            "sales_tax": 0,
+            "sales_tax_rates": 0,
+            "coupons": [],
+            "coupon_discount_amount": 0,
+            "tax_information": {
+                "amount_to_collect": 0,
+                "freight_taxable": true,
+                "has_nexus": false,
+                "order_total_amount": 45,
+                "rate": 0,
+                "shipping": 0,
+                "tax_source": null,
+                "taxable_amount": 0
+            }
+        },
+        "timezone": "America/Los_Angeles",
+        "source_from": "app",
+        "created_on": 1735779246,
+        "updated_on": 1735866000,
+        "code": "250102OG35296C"
+    },
+    {
+        "order_status": "canceled",
+        "payment_status": "unpaid",
+        "payment_method": "stripe",
+        "pricing": {
+            "items_total": 10.77,
+            "items_discount": 0,
+            "sub_total": 10.77,
+            "total": 10.77,
+            "affiliate_discount": 0,
+            "shipping": 0,
+            "shipping_rate": {
+                "_id": {
+                    "$oid": "66da0da6a9e201e3b567666b"
+                },
+                "seller_id": {
+                    "$oid": "66cf82caffc4c15fe5ebbd78"
+                },
+                "name": "Free Shipping",
+                "amount": 0,
+                "estimated_days": 4,
+                "conditions": {
+                    "is_turn_on": false,
+                    "type": "order_price",
+                    "min_price": 250,
+                    "max_price": 10000,
+                    "weight_unit": "lb",
+                    "_id": {
+                        "$oid": "66fc2e0f2c7639e71135d1de"
+                    }
+                },
+                "status": "active",
+                "created_on": 1725566374,
+                "updated_on": 1727802895,
+                "__v": 0,
+                "is_free_ship": true,
+                "id": {
+                    "$oid": "66da0da6a9e201e3b567666b"
+                },
+                "servicelevel_name": "Free Shipping",
+                "is_flat_rate": true,
+                "provider": "nailzy"
+            },
+            "sales_tax": 0,
+            "sales_tax_rates": 0,
+            "coupons": [],
+            "coupon_discount_amount": 0,
+            "tax_information": {
+                "amount_to_collect": 0,
+                "freight_taxable": true,
+                "has_nexus": false,
+                "order_total_amount": 10.77,
+                "rate": 0,
+                "shipping": 0,
+                "tax_source": null,
+                "taxable_amount": 0
+            }
+        },
+        "timezone": "America/New_York",
+        "source_from": "app",
+        "created_on": 1735779845,
+        "updated_on": 1735781699,
+        "code": "250102T05FI1J5"
+    },
+    {
+        "order_status": "canceled",
+        "payment_status": "unpaid",
+        "payment_method": "stripe",
+        "pricing": {
+            "items_total": 52.5,
+            "items_discount": 0,
+            "sub_total": 52.5,
+            "total": 52.5,
+            "affiliate_discount": 0,
+            "shipping": 0,
+            "shipping_rate": {
+                "_id": {
+                    "$oid": "66ccb98e7309d93d11732247"
+                },
+                "name": "Free Shipping",
+                "amount": 0,
+                "estimated_days": 4,
+                "conditions": {
+                    "is_turn_on": false,
+                    "type": "order_price",
+                    "min_price": 120,
+                    "max_price": 10000,
+                    "_id": {
+                        "$oid": "6708132c87952301f32f988c"
+                    }
+                },
+                "status": "active",
+                "created_on": 1724692878,
+                "updated_on": 1728582444,
+                "__v": 0,
+                "is_free_ship": true,
+                "id": {
+                    "$oid": "66ccb98e7309d93d11732247"
+                },
+                "servicelevel_name": "Free Shipping",
+                "is_flat_rate": true,
+                "provider": "nailzy"
+            },
+            "sales_tax": 0,
+            "sales_tax_rates": 0,
+            "coupons": [],
+            "coupon_discount_amount": 0,
+            "tax_information": {
+                "amount_to_collect": 0,
+                "freight_taxable": true,
+                "has_nexus": false,
+                "order_total_amount": 52.5,
+                "rate": 0,
+                "shipping": 0,
+                "tax_source": null,
+                "taxable_amount": 0
+            }
+        },
+        "timezone": "America/New_York",
+        "source_from": "app",
+        "created_on": 1735779845,
+        "updated_on": 1735781699,
+        "code": "2501023GSZD94O"
+    },
+    {
+        "order_status": "canceled",
+        "payment_status": "unpaid",
+        "payment_method": "stripe",
+        "pricing": {
+            "items_total": 22.73,
+            "items_discount": 19.76,
+            "sub_total": 2.97,
+            "total": 2.97,
+            "affiliate_discount": 0,
+            "shipping": 0,
+            "shipping_rate": {
+                "_id": {
+                    "$oid": "66ccb98e7309d93d11732247"
+                },
+                "name": "Free Shipping",
+                "amount": 0,
+                "estimated_days": 4,
+                "conditions": {
+                    "is_turn_on": false,
+                    "type": "order_price",
+                    "min_price": 120,
+                    "max_price": 10000,
+                    "_id": {
+                        "$oid": "6708132c87952301f32f988c"
+                    }
+                },
+                "status": "active",
+                "created_on": 1724692878,
+                "updated_on": 1728582444,
+                "__v": 0,
+                "is_free_ship": true,
+                "id": {
+                    "$oid": "66ccb98e7309d93d11732247"
+                },
+                "servicelevel_name": "Free Shipping",
+                "is_flat_rate": true,
+                "provider": "nailzy"
+            },
+            "sales_tax": 0,
+            "sales_tax_rates": 0,
+            "coupons": [],
+            "coupon_discount_amount": 0,
+            "tax_information": {
+                "amount_to_collect": 0,
+                "freight_taxable": true,
+                "has_nexus": false,
+                "order_total_amount": 2.97,
+                "rate": 0,
+                "shipping": 0,
+                "tax_source": null,
+                "taxable_amount": 0
+            }
+        },
+        "timezone": "America/New_York",
+        "source_from": "app",
+        "created_on": 1735779845,
+        "updated_on": 1735781699,
+        "code": "250102TKXTYIWM"
+    },
+    {
+        "order_status": "canceled",
+        "payment_status": "unpaid",
+        "payment_method": "stripe",
+        "pricing": {
+            "items_total": 16.29,
+            "items_discount": 0,
+            "sub_total": 16.29,
+            "total": 16.29,
+            "affiliate_discount": 0,
+            "shipping": 0,
+            "shipping_rate": {
+                "_id": {
+                    "$oid": "66ccb98e7309d93d11732247"
+                },
+                "name": "Free Shipping",
+                "amount": 0,
+                "estimated_days": 4,
+                "conditions": {
+                    "is_turn_on": false,
+                    "type": "order_price",
+                    "min_price": 120,
+                    "max_price": 10000,
+                    "_id": {
+                        "$oid": "6708132c87952301f32f988c"
+                    }
+                },
+                "status": "active",
+                "created_on": 1724692878,
+                "updated_on": 1728582444,
+                "__v": 0,
+                "is_free_ship": true,
+                "id": {
+                    "$oid": "66ccb98e7309d93d11732247"
+                },
+                "servicelevel_name": "Free Shipping",
+                "is_flat_rate": true,
+                "provider": "nailzy"
+            },
+            "sales_tax": 0,
+            "sales_tax_rates": 0,
+            "coupons": [],
+            "coupon_discount_amount": 0,
+            "tax_information": {
+                "amount_to_collect": 0,
+                "freight_taxable": true,
+                "has_nexus": false,
+                "order_total_amount": 16.29,
+                "rate": 0,
+                "shipping": 0,
+                "tax_source": null,
+                "taxable_amount": 0
+            }
+        },
+        "timezone": "America/New_York",
+        "source_from": "app",
+        "created_on": 1735779845,
+        "updated_on": 1735781699,
+        "code": "250102B6GSU0TJ"
+    },
+    {
+        "order_status": "completed",
+        "payment_status": "paid",
+        "payment_method": "stripe",
+        "pricing": {
+            "items_total": 47.25,
+            "items_discount": 0,
+            "sub_total": 47.25,
+            "total": 34.75,
+            "affiliate_discount": 0,
+            "shipping": 0,
+            "shipping_rate": {
+                "_id": {
+                    "$oid": "66ccb98e7309d93d11732247"
+                },
+                "name": "Free Shipping",
+                "amount": 0,
+                "estimated_days": 4,
+                "conditions": {
+                    "is_turn_on": false,
+                    "type": "order_price",
+                    "min_price": 120,
+                    "max_price": 10000,
+                    "_id": {
+                        "$oid": "6708132c87952301f32f988c"
+                    }
+                },
+                "status": "active",
+                "created_on": 1724692878,
+                "updated_on": 1728582444,
+                "__v": 0,
+                "is_free_ship": true,
+                "id": {
+                    "$oid": "66ccb98e7309d93d11732247"
+                },
+                "servicelevel_name": "Free Shipping",
+                "is_flat_rate": true,
+                "provider": "nailzy"
+            },
+            "sales_tax": 0,
+            "sales_tax_rates": 0,
+            "coupons": [
+                {
+                    "id": "66e046c5798c36d31e74ba76",
+                    "amount": 23.63,
+                    "discount_amount": 12.5,
+                    "provider": "nailzy",
+                    "code": "WELCOME50"
+                }
+            ],
+            "coupon_discount_amount": 12.5,
+            "tax_information": {
+                "amount_to_collect": 0,
+                "freight_taxable": true,
+                "has_nexus": false,
+                "order_total_amount": 47.25,
+                "rate": 0,
+                "shipping": 0,
+                "tax_source": null,
+                "taxable_amount": 0
+            }
+        },
+        "timezone": "America/New_York",
+        "source_from": "app",
+        "created_on": 1735780973,
+        "updated_on": 1737590402,
+        "code": "25010205WI1NSK"
+    },
+    {
+        "order_status": "completed",
+        "payment_status": "paid",
+        "payment_method": "stripe",
+        "pricing": {
+            "items_total": 22.73,
+            "items_discount": 19.76,
+            "sub_total": 2.97,
+            "total": 1.48,
+            "affiliate_discount": 0,
+            "shipping": 0,
+            "shipping_rate": {
+                "_id": {
+                    "$oid": "66ccb98e7309d93d11732247"
+                },
+                "name": "Free Shipping",
+                "amount": 0,
+                "estimated_days": 4,
+                "conditions": {
+                    "is_turn_on": false,
+                    "type": "order_price",
+                    "min_price": 120,
+                    "max_price": 10000,
+                    "_id": {
+                        "$oid": "6708132c87952301f32f988c"
+                    }
+                },
+                "status": "active",
+                "created_on": 1724692878,
+                "updated_on": 1728582444,
+                "__v": 0,
+                "is_free_ship": true,
+                "id": {
+                    "$oid": "66ccb98e7309d93d11732247"
+                },
+                "servicelevel_name": "Free Shipping",
+                "is_flat_rate": true,
+                "provider": "nailzy"
+            },
+            "sales_tax": 0,
+            "sales_tax_rates": 0,
+            "coupons": [
+                {
+                    "id": "66e046c5798c36d31e74ba76",
+                    "amount": 1.49,
+                    "discount_amount": 1.49,
+                    "provider": "nailzy",
+                    "code": "WELCOME50"
+                }
+            ],
+            "coupon_discount_amount": 1.49,
+            "tax_information": {
+                "amount_to_collect": 0,
+                "freight_taxable": true,
+                "has_nexus": false,
+                "order_total_amount": 2.97,
+                "rate": 0,
+                "shipping": 0,
+                "tax_source": null,
+                "taxable_amount": 0
+            }
+        },
+        "timezone": "America/New_York",
+        "source_from": "app",
+        "created_on": 1735780973,
+        "updated_on": 1738022401,
+        "code": "250102M9DFU0S0"
+    },
+    {
+        "order_status": "completed",
+        "payment_status": "paid",
+        "payment_method": "stripe",
+        "pricing": {
+            "items_total": 9.99,
+            "items_discount": 3,
+            "sub_total": 6.99,
+            "total": 3.49,
+            "affiliate_discount": 0,
+            "shipping": 0,
+            "shipping_rate": {
+                "_id": {
+                    "$oid": "66ccb98e7309d93d11732247"
+                },
+                "name": "Free Shipping",
+                "amount": 0,
+                "estimated_days": 4,
+                "conditions": {
+                    "is_turn_on": false,
+                    "type": "order_price",
+                    "min_price": 120,
+                    "max_price": 10000,
+                    "_id": {
+                        "$oid": "6708132c87952301f32f988c"
+                    }
+                },
+                "status": "active",
+                "created_on": 1724692878,
+                "updated_on": 1728582444,
+                "__v": 0,
+                "is_free_ship": true,
+                "id": {
+                    "$oid": "66ccb98e7309d93d11732247"
+                },
+                "servicelevel_name": "Free Shipping",
+                "is_flat_rate": true,
+                "provider": "nailzy"
+            },
+            "sales_tax": 0,
+            "sales_tax_rates": 0,
+            "coupons": [
+                {
+                    "id": "66e046c5798c36d31e74ba76",
+                    "amount": 3.5,
+                    "discount_amount": 3.5,
+                    "provider": "nailzy",
+                    "code": "WELCOME50"
+                }
+            ],
+            "coupon_discount_amount": 3.5,
+            "tax_information": {
+                "amount_to_collect": 0,
+                "freight_taxable": false,
+                "has_nexus": false,
+                "order_total_amount": 6.99,
+                "rate": 0,
+                "shipping": 0,
+                "tax_source": null,
+                "taxable_amount": 0
+            }
+        },
+        "timezone": "America/Los_Angeles",
+        "source_from": "app",
+        "created_on": 1735781055,
+        "updated_on": 1737590402,
+        "code": "250102HFSSVKL8"
+    },
+    {
+        "order_status": "canceled",
+        "payment_status": "refunded",
+        "payment_method": "stripe",
+        "pricing": {
+            "items_total": 14.289,
+            "items_discount": 3.479,
+            "sub_total": 10.81,
+            "total": 5.81,
+            "affiliate_discount": 0,
+            "shipping": 0,
+            "shipping_rate": {
+                "_id": {
+                    "$oid": "66da0da6a9e201e3b567666b"
+                },
+                "seller_id": {
+                    "$oid": "66cf82caffc4c15fe5ebbd78"
+                },
+                "name": "Free Shipping",
+                "amount": 0,
+                "estimated_days": 4,
+                "conditions": {
+                    "is_turn_on": false,
+                    "type": "order_price",
+                    "min_price": 250,
+                    "max_price": 10000,
+                    "weight_unit": "lb",
+                    "_id": {
+                        "$oid": "66fc2e0f2c7639e71135d1de"
+                    }
+                },
+                "status": "active",
+                "created_on": 1725566374,
+                "updated_on": 1727802895,
+                "__v": 0,
+                "is_free_ship": true,
+                "id": {
+                    "$oid": "66da0da6a9e201e3b567666b"
+                },
+                "servicelevel_name": "Free Shipping",
+                "is_flat_rate": true,
+                "provider": "nailzy"
+            },
+            "sales_tax": 0,
+            "sales_tax_rates": 0,
+            "coupons": [
+                {
+                    "id": "66e046c5798c36d31e74ba76",
+                    "amount": 5.41,
+                    "discount_amount": 5,
+                    "provider": "nailzy",
+                    "code": "WELCOME50"
+                }
+            ],
+            "coupon_discount_amount": 5,
+            "tax_information": {
+                "amount_to_collect": 0,
+                "freight_taxable": false,
+                "has_nexus": false,
+                "order_total_amount": 10.81,
+                "rate": 0,
+                "shipping": 0,
+                "tax_source": null,
+                "taxable_amount": 0
+            }
+        },
+        "timezone": "America/Los_Angeles",
+        "source_from": "app",
+        "created_on": 1735781055,
+        "updated_on": 1736130992,
+        "code": "2501029G3DH5UP"
+    },
+    {
+        "order_status": "completed",
+        "payment_status": "paid",
+        "payment_method": "stripe",
+        "pricing": {
+            "items_total": 36.14,
+            "items_discount": 11.97,
+            "sub_total": 24.17,
+            "total": 19.17,
+            "affiliate_discount": 0,
+            "shipping": 0,
+            "shipping_rate": {
+                "_id": {
+                    "$oid": "66ccb98e7309d93d11732247"
+                },
+                "name": "Free Shipping",
+                "amount": 0,
+                "estimated_days": 4,
+                "conditions": {
+                    "is_turn_on": false,
+                    "type": "order_price",
+                    "min_price": 120,
+                    "max_price": 10000,
+                    "_id": {
+                        "$oid": "6708132c87952301f32f988c"
+                    }
+                },
+                "status": "active",
+                "created_on": 1724692878,
+                "updated_on": 1728582444,
+                "__v": 0,
+                "is_free_ship": true,
+                "id": {
+                    "$oid": "66ccb98e7309d93d11732247"
+                },
+                "servicelevel_name": "Free Shipping",
+                "is_flat_rate": true,
+                "provider": "nailzy"
+            },
+            "sales_tax": 0,
+            "sales_tax_rates": 0,
+            "coupons": [
+                {
+                    "id": "66e046c5798c36d31e74ba76",
+                    "amount": 12.09,
+                    "discount_amount": 5,
+                    "provider": "nailzy",
+                    "code": "WELCOME50"
+                }
+            ],
+            "coupon_discount_amount": 5,
+            "tax_information": {
+                "amount_to_collect": 0,
+                "freight_taxable": false,
+                "has_nexus": false,
+                "order_total_amount": 24.17,
+                "rate": 0,
+                "shipping": 0,
+                "tax_source": null,
+                "taxable_amount": 0
+            }
+        },
+        "timezone": "America/Los_Angeles",
+        "source_from": "app",
+        "created_on": 1735781055,
+        "updated_on": 1738022401,
+        "code": "250102C1A7VK05"
+    },
+    {
+        "order_status": "completed",
+        "payment_status": "paid",
+        "payment_method": "stripe",
+        "pricing": {
+            "items_total": 8,
+            "items_discount": 0,
+            "sub_total": 8,
+            "total": 4,
+            "affiliate_discount": 0,
+            "shipping": 0,
+            "shipping_rate": {
+                "_id": {
+                    "$oid": "66da0a43a9e201e3b567164e"
+                },
+                "seller_id": {
+                    "$oid": "66b3d610d6d2af98e07956d6"
+                },
+                "name": "Free Shipping",
+                "amount": 0,
+                "estimated_days": 4,
+                "conditions": {
+                    "is_turn_on": false,
+                    "type": "order_price",
+                    "min_price": 250,
+                    "max_price": 10000,
+                    "weight_unit": "lb",
+                    "_id": {
+                        "$oid": "66fc2ead2c7639e7113601a0"
+                    }
+                },
+                "status": "active",
+                "created_on": 1725565507,
+                "updated_on": 1727803053,
+                "__v": 0,
+                "is_free_ship": true,
+                "id": {
+                    "$oid": "66da0a43a9e201e3b567164e"
+                },
+                "servicelevel_name": "Free Shipping",
+                "is_flat_rate": true,
+                "provider": "nailzy"
+            },
+            "sales_tax": 0,
+            "sales_tax_rates": 0,
+            "coupons": [
+                {
+                    "id": "66e046c5798c36d31e74ba76",
+                    "amount": 4,
+                    "discount_amount": 4,
+                    "provider": "nailzy",
+                    "code": "WELCOME50"
+                }
+            ],
+            "coupon_discount_amount": 4,
+            "tax_information": {
+                "amount_to_collect": 0,
+                "freight_taxable": false,
+                "has_nexus": false,
+                "order_total_amount": 8,
+                "rate": 0,
+                "shipping": 0,
+                "tax_source": null,
+                "taxable_amount": 0
+            }
+        },
+        "timezone": "America/Los_Angeles",
+        "source_from": "app",
+        "created_on": 1735781055,
+        "updated_on": 1737590402,
+        "code": "250102MC7OFIQE"
+    },
+    {
+        "order_status": "completed",
+        "payment_status": "paid",
+        "payment_method": "stripe",
+        "pricing": {
+            "items_total": 5,
+            "items_discount": 0,
+            "sub_total": 5,
+            "total": 2.5,
+            "affiliate_discount": 0,
+            "shipping": 0,
+            "shipping_rate": {
+                "_id": {
+                    "$oid": "66fc2df32c7639e71135c3e9"
+                },
+                "seller_id": {
+                    "$oid": "66b3d5a3d6d2af98e0795578"
+                },
+                "name": "Free Shipping",
+                "amount": 0,
+                "estimated_days": 4,
+                "conditions": {
+                    "is_turn_on": false,
+                    "type": "order_price",
+                    "min_price": 0,
+                    "max_price": 0,
+                    "weight_unit": "lb",
+                    "_id": {
+                        "$oid": "66fc2df32c7639e71135c3ea"
+                    }
+                },
+                "status": "active",
+                "is_free_ship": true,
+                "created_on": 1727802867,
+                "updated_on": 1727802867,
+                "__v": 0,
+                "id": {
+                    "$oid": "66fc2df32c7639e71135c3e9"
+                },
+                "servicelevel_name": "Free Shipping",
+                "is_flat_rate": true,
+                "provider": "nailzy"
+            },
+            "sales_tax": 0,
+            "sales_tax_rates": 0,
+            "coupons": [
+                {
+                    "id": "66e046c5798c36d31e74ba76",
+                    "amount": 2.5,
+                    "discount_amount": 2.5,
+                    "provider": "nailzy",
+                    "code": "WELCOME50"
+                }
+            ],
+            "coupon_discount_amount": 2.5,
+            "tax_information": {
+                "amount_to_collect": 0,
+                "freight_taxable": false,
+                "has_nexus": false,
+                "order_total_amount": 5,
+                "rate": 0,
+                "shipping": 0,
+                "tax_source": null,
+                "taxable_amount": 0
+            }
+        },
+        "timezone": "America/Los_Angeles",
+        "source_from": "app",
+        "created_on": 1735781055,
+        "updated_on": 1738022401,
+        "code": "25010271YIM4W2"
+    },
+    {
+        "order_status": "completed",
+        "payment_status": "paid",
+        "payment_method": "stripe",
+        "pricing": {
+            "items_total": 37.74,
+            "items_discount": 0,
+            "sub_total": 37.74,
+            "total": 22.74,
+            "affiliate_discount": 0,
+            "shipping": 0,
+            "shipping_rate": {
+                "_id": {
+                    "$oid": "66ccb98e7309d93d11732247"
+                },
+                "name": "Free Shipping",
+                "amount": 0,
+                "estimated_days": 4,
+                "conditions": {
+                    "is_turn_on": false,
+                    "type": "order_price",
+                    "min_price": 120,
+                    "max_price": 10000,
+                    "_id": {
+                        "$oid": "6708132c87952301f32f988c"
+                    }
+                },
+                "status": "active",
+                "created_on": 1724692878,
+                "updated_on": 1728582444,
+                "__v": 0,
+                "is_free_ship": true,
+                "id": {
+                    "$oid": "66ccb98e7309d93d11732247"
+                },
+                "servicelevel_name": "Free Shipping",
+                "is_flat_rate": true,
+                "provider": "nailzy"
+            },
+            "sales_tax": 0,
+            "sales_tax_rates": 0,
+            "coupons": [
+                {
+                    "id": "67607b4ad7af2d33b2fa3e4f",
+                    "amount": 15,
+                    "discount_amount": 15,
+                    "provider": "nailzy",
+                    "code": "NAILZY0ETZ5T"
+                }
+            ],
+            "coupon_discount_amount": 15,
+            "tax_information": {
+                "amount_to_collect": 0,
+                "freight_taxable": true,
+                "has_nexus": false,
+                "order_total_amount": 37.74,
+                "rate": 0,
+                "shipping": 0,
+                "tax_source": null,
+                "taxable_amount": 0
+            }
+        },
+        "timezone": "America/New_York",
+        "source_from": "app",
+        "created_on": 1735782618,
+        "updated_on": 1737504002,
+        "code": "250102ZLTX3EJ7"
+    },
+    {
+        "order_status": "completed",
+        "payment_status": "paid",
+        "payment_method": "stripe",
+        "pricing": {
+            "items_total": 54.95,
+            "items_discount": 0,
+            "sub_total": 54.95,
+            "total": 29.95,
+            "affiliate_discount": 0,
+            "shipping": 0,
+            "shipping_rate": {
+                "_id": {
+                    "$oid": "66ccb98e7309d93d11732247"
+                },
+                "name": "Free Shipping",
+                "amount": 0,
+                "estimated_days": 4,
+                "conditions": {
+                    "is_turn_on": false,
+                    "type": "order_price",
+                    "min_price": 120,
+                    "max_price": 10000,
+                    "_id": {
+                        "$oid": "6708132c87952301f32f988c"
+                    }
+                },
+                "status": "active",
+                "created_on": 1724692878,
+                "updated_on": 1728582444,
+                "__v": 0,
+                "is_free_ship": true,
+                "id": {
+                    "$oid": "66ccb98e7309d93d11732247"
+                },
+                "servicelevel_name": "Free Shipping",
+                "is_flat_rate": true,
+                "provider": "nailzy"
+            },
+            "sales_tax": 0,
+            "sales_tax_rates": 0,
+            "coupons": [
+                {
+                    "id": "66e046c5798c36d31e74ba76",
+                    "amount": 27.48,
+                    "discount_amount": 25,
+                    "provider": "nailzy",
+                    "code": "WELCOME50"
+                }
+            ],
+            "coupon_discount_amount": 25,
+            "tax_information": {
+                "amount_to_collect": 0,
+                "freight_taxable": false,
+                "has_nexus": false,
+                "order_total_amount": 54.95,
+                "rate": 0,
+                "shipping": 0,
+                "tax_source": null,
+                "taxable_amount": 0
+            }
+        },
+        "timezone": "America/Chicago",
+        "source_from": "app",
+        "created_on": 1735784728,
+        "updated_on": 1737417601,
+        "code": "250102VILWZP6R"
+    },
+    {
+        "order_status": "completed",
+        "payment_status": "paid",
+        "payment_method": "stripe",
+        "pricing": {
+            "items_total": 6.75,
+            "items_discount": 0,
+            "sub_total": 6.75,
+            "total": 6.75,
+            "affiliate_discount": 0,
+            "shipping": 0,
+            "shipping_rate": {
+                "_id": {
+                    "$oid": "66fc2df32c7639e71135c3e9"
+                },
+                "seller_id": {
+                    "$oid": "66b3d5a3d6d2af98e0795578"
+                },
+                "name": "Free Shipping",
+                "amount": 0,
+                "estimated_days": 4,
+                "conditions": {
+                    "is_turn_on": false,
+                    "type": "order_price",
+                    "min_price": 0,
+                    "max_price": 0,
+                    "weight_unit": "lb",
+                    "_id": {
+                        "$oid": "66fc2df32c7639e71135c3ea"
+                    }
+                },
+                "status": "active",
+                "is_free_ship": true,
+                "created_on": 1727802867,
+                "updated_on": 1727802867,
+                "__v": 0,
+                "id": {
+                    "$oid": "66fc2df32c7639e71135c3e9"
+                },
+                "servicelevel_name": "Free Shipping",
+                "is_flat_rate": true,
+                "provider": "nailzy"
+            },
+            "sales_tax": 0,
+            "sales_tax_rates": 0,
+            "coupons": [],
+            "coupon_discount_amount": 0,
+            "tax_information": {
+                "amount_to_collect": 0,
+                "freight_taxable": true,
+                "has_nexus": false,
+                "order_total_amount": 6.75,
+                "rate": 0,
+                "shipping": 0,
+                "tax_source": null,
+                "taxable_amount": 0
+            }
+        },
+        "timezone": "America/New_York",
+        "source_from": "app",
+        "created_on": 1735785896,
+        "updated_on": 1737417601,
+        "code": "250102GR81CJB0"
+    },
+    {
+        "order_status": "completed",
+        "payment_status": "paid",
+        "payment_method": "stripe",
+        "pricing": {
+            "items_total": 33,
+            "items_discount": 21.01,
+            "sub_total": 11.99,
+            "total": 11.99,
+            "affiliate_discount": 0,
+            "shipping": 0,
+            "shipping_rate": {
+                "_id": {
+                    "$oid": "66da0a43a9e201e3b567164e"
+                },
+                "seller_id": {
+                    "$oid": "66b3d610d6d2af98e07956d6"
+                },
+                "name": "Free Shipping",
+                "amount": 0,
+                "estimated_days": 4,
+                "conditions": {
+                    "is_turn_on": false,
+                    "type": "order_price",
+                    "min_price": 250,
+                    "max_price": 10000,
+                    "weight_unit": "lb",
+                    "_id": {
+                        "$oid": "66fc2ead2c7639e7113601a0"
+                    }
+                },
+                "status": "active",
+                "created_on": 1725565507,
+                "updated_on": 1727803053,
+                "__v": 0,
+                "is_free_ship": true,
+                "id": {
+                    "$oid": "66da0a43a9e201e3b567164e"
+                },
+                "servicelevel_name": "Free Shipping",
+                "is_flat_rate": true,
+                "provider": "nailzy"
+            },
+            "sales_tax": 0,
+            "sales_tax_rates": 0,
+            "coupons": [],
+            "coupon_discount_amount": 0,
+            "tax_information": {
+                "amount_to_collect": 0,
+                "freight_taxable": true,
+                "has_nexus": false,
+                "order_total_amount": 11.99,
+                "rate": 0,
+                "shipping": 0,
+                "tax_source": null,
+                "taxable_amount": 0
+            }
+        },
+        "timezone": "America/New_York",
+        "source_from": "app",
+        "created_on": 1735785896,
+        "updated_on": 1737590402,
+        "code": "250102RMEFU72J"
+    },
+    {
+        "order_status": "canceled",
+        "payment_status": "unpaid",
+        "payment_method": "stripe",
+        "pricing": {
+            "items_total": 7.95,
+            "items_discount": 0,
+            "sub_total": 7.95,
+            "total": 5.56,
+            "affiliate_discount": 0,
+            "shipping": 0,
+            "shipping_rate": {
+                "_id": {
+                    "$oid": "66fc2df32c7639e71135c3e9"
+                },
+                "seller_id": {
+                    "$oid": "66b3d5a3d6d2af98e0795578"
+                },
+                "name": "Free Shipping",
+                "amount": 0,
+                "estimated_days": 4,
+                "conditions": {
+                    "is_turn_on": false,
+                    "type": "order_price",
+                    "min_price": 0,
+                    "max_price": 0,
+                    "weight_unit": "lb",
+                    "_id": {
+                        "$oid": "66fc2df32c7639e71135c3ea"
+                    }
+                },
+                "status": "active",
+                "is_free_ship": true,
+                "created_on": 1727802867,
+                "updated_on": 1727802867,
+                "__v": 0,
+                "id": {
+                    "$oid": "66fc2df32c7639e71135c3e9"
+                },
+                "servicelevel_name": "Free Shipping",
+                "is_flat_rate": true,
+                "provider": "nailzy"
+            },
+            "sales_tax": 0,
+            "sales_tax_rates": 0,
+            "coupons": [
+                {
+                    "id": "66e1f1278eeef3eb5cc023af",
+                    "amount": 2.39,
+                    "discount_amount": 2.39,
+                    "provider": "nailzy",
+                    "code": "NAILZY30"
+                }
+            ],
+            "coupon_discount_amount": 2.39,
+            "tax_information": {
+                "amount_to_collect": 0,
+                "freight_taxable": false,
+                "has_nexus": false,
+                "order_total_amount": 7.95,
+                "rate": 0,
+                "shipping": 0,
+                "tax_source": null,
+                "taxable_amount": 0
+            }
+        },
+        "timezone": "America/Chicago",
+        "source_from": "app",
+        "created_on": 1735789529,
+        "updated_on": 1735876800,
+        "code": "2501027D7EJHD2"
+    },
+    {
+        "order_status": "canceled",
+        "payment_status": "unpaid",
+        "payment_method": "stripe",
+        "pricing": {
+            "items_total": 16.5,
+            "items_discount": 1.89,
+            "sub_total": 14.61,
+            "total": 10.23,
+            "affiliate_discount": 0,
+            "shipping": 0,
+            "shipping_rate": {
+                "_id": {
+                    "$oid": "66da0da6a9e201e3b567666b"
+                },
+                "seller_id": {
+                    "$oid": "66cf82caffc4c15fe5ebbd78"
+                },
+                "name": "Free Shipping",
+                "amount": 0,
+                "estimated_days": 4,
+                "conditions": {
+                    "is_turn_on": false,
+                    "type": "order_price",
+                    "min_price": 250,
+                    "max_price": 10000,
+                    "weight_unit": "lb",
+                    "_id": {
+                        "$oid": "66fc2e0f2c7639e71135d1de"
+                    }
+                },
+                "status": "active",
+                "created_on": 1725566374,
+                "updated_on": 1727802895,
+                "__v": 0,
+                "is_free_ship": true,
+                "id": {
+                    "$oid": "66da0da6a9e201e3b567666b"
+                },
+                "servicelevel_name": "Free Shipping",
+                "is_flat_rate": true,
+                "provider": "nailzy"
+            },
+            "sales_tax": 0,
+            "sales_tax_rates": 0,
+            "coupons": [
+                {
+                    "id": "66e1f1278eeef3eb5cc023af",
+                    "amount": 4.38,
+                    "discount_amount": 4.38,
+                    "provider": "nailzy",
+                    "code": "NAILZY30"
+                }
+            ],
+            "coupon_discount_amount": 4.38,
+            "tax_information": {
+                "amount_to_collect": 0,
+                "freight_taxable": false,
+                "has_nexus": false,
+                "order_total_amount": 14.61,
+                "rate": 0,
+                "shipping": 0,
+                "tax_source": null,
+                "taxable_amount": 0
+            }
+        },
+        "timezone": "America/Chicago",
+        "source_from": "app",
+        "created_on": 1735789529,
+        "updated_on": 1735876800,
+        "code": "250102XH4HSB3R"
+    },
+    {
+        "order_status": "canceled",
+        "payment_status": "unpaid",
+        "payment_method": "stripe",
+        "pricing": {
+            "items_total": 264.45,
+            "items_discount": 0,
+            "sub_total": 264.45,
+            "total": 259.45,
+            "affiliate_discount": 0,
+            "shipping": 0,
+            "shipping_rate": {
+                "_id": {
+                    "$oid": "66ccb98e7309d93d11732247"
+                },
+                "name": "Free Shipping",
+                "amount": 0,
+                "estimated_days": 4,
+                "conditions": {
+                    "is_turn_on": false,
+                    "type": "order_price",
+                    "min_price": 120,
+                    "max_price": 10000,
+                    "_id": {
+                        "$oid": "6708132c87952301f32f988c"
+                    }
+                },
+                "status": "active",
+                "created_on": 1724692878,
+                "updated_on": 1728582444,
+                "__v": 0,
+                "is_free_ship": true,
+                "id": {
+                    "$oid": "66ccb98e7309d93d11732247"
+                },
+                "servicelevel_name": "Free Shipping",
+                "is_flat_rate": true,
+                "provider": "nailzy"
+            },
+            "sales_tax": 0,
+            "sales_tax_rates": 0,
+            "coupons": [
+                {
+                    "id": "66e1f1278eeef3eb5cc023af",
+                    "amount": 79.34,
+                    "discount_amount": 5,
+                    "provider": "nailzy",
+                    "code": "NAILZY30"
+                }
+            ],
+            "coupon_discount_amount": 5,
+            "tax_information": {
+                "amount_to_collect": 0,
+                "freight_taxable": false,
+                "has_nexus": false,
+                "order_total_amount": 264.45,
+                "rate": 0,
+                "shipping": 0,
+                "tax_source": null,
+                "taxable_amount": 0
+            }
+        },
+        "timezone": "America/Chicago",
+        "source_from": "app",
+        "created_on": 1735789529,
+        "updated_on": 1735876800,
+        "code": "250102ZZIUOGA0"
+    },
+    {
+        "order_status": "completed",
+        "payment_status": "paid",
+        "payment_method": "stripe",
+        "pricing": {
+            "items_total": 12.88,
+            "items_discount": 0,
+            "sub_total": 12.88,
+            "total": 6.44,
+            "affiliate_discount": 0,
+            "shipping": 0,
+            "shipping_rate": {
+                "_id": {
+                    "$oid": "66da0da6a9e201e3b567666b"
+                },
+                "seller_id": {
+                    "$oid": "66cf82caffc4c15fe5ebbd78"
+                },
+                "name": "Free Shipping",
+                "amount": 0,
+                "estimated_days": 4,
+                "conditions": {
+                    "is_turn_on": false,
+                    "type": "order_price",
+                    "min_price": 250,
+                    "max_price": 10000,
+                    "weight_unit": "lb",
+                    "_id": {
+                        "$oid": "66fc2e0f2c7639e71135d1de"
+                    }
+                },
+                "status": "active",
+                "created_on": 1725566374,
+                "updated_on": 1727802895,
+                "__v": 0,
+                "is_free_ship": true,
+                "id": {
+                    "$oid": "66da0da6a9e201e3b567666b"
+                },
+                "servicelevel_name": "Free Shipping",
+                "is_flat_rate": true,
+                "provider": "nailzy"
+            },
+            "sales_tax": 0,
+            "sales_tax_rates": 0,
+            "coupons": [
+                {
+                    "id": "66e046c5798c36d31e74ba76",
+                    "amount": 6.44,
+                    "discount_amount": 6.44,
+                    "provider": "nailzy",
+                    "code": "WELCOME50"
+                }
+            ],
+            "coupon_discount_amount": 6.44,
+            "tax_information": {
+                "amount_to_collect": 0,
+                "freight_taxable": true,
+                "has_nexus": false,
+                "order_total_amount": 12.88,
+                "rate": 0,
+                "shipping": 0,
+                "tax_source": null,
+                "taxable_amount": 0
+            }
+        },
+        "timezone": "America/New_York",
+        "source_from": "app",
+        "created_on": 1735791184,
+        "updated_on": 1737504002,
+        "code": "250102LDFZ67Z4"
+    },
+    {
+        "order_status": "completed",
+        "payment_status": "paid",
+        "payment_method": "stripe",
+        "pricing": {
+            "items_total": 60,
+            "items_discount": 0,
+            "sub_total": 60,
+            "total": 51.67,
+            "affiliate_discount": 0,
+            "shipping": 0,
+            "shipping_rate": {
+                "_id": {
+                    "$oid": "66ccb98e7309d93d11732247"
+                },
+                "name": "Free Shipping",
+                "amount": 0,
+                "estimated_days": 4,
+                "conditions": {
+                    "is_turn_on": false,
+                    "type": "order_price",
+                    "min_price": 120,
+                    "max_price": 10000,
+                    "_id": {
+                        "$oid": "6708132c87952301f32f988c"
+                    }
+                },
+                "status": "active",
+                "created_on": 1724692878,
+                "updated_on": 1728582444,
+                "__v": 0,
+                "is_free_ship": true,
+                "id": {
+                    "$oid": "66ccb98e7309d93d11732247"
+                },
+                "servicelevel_name": "Free Shipping",
+                "is_flat_rate": true,
+                "provider": "nailzy"
+            },
+            "sales_tax": 0,
+            "sales_tax_rates": 0,
+            "coupons": [
+                {
+                    "id": "66e046c5798c36d31e74ba76",
+                    "amount": 30,
+                    "discount_amount": 8.333333333333334,
+                    "provider": "nailzy",
+                    "code": "WELCOME50"
+                }
+            ],
+            "coupon_discount_amount": 8.333333333333334,
+            "tax_information": {
+                "amount_to_collect": 0,
+                "freight_taxable": true,
+                "has_nexus": false,
+                "order_total_amount": 60,
+                "rate": 0,
+                "shipping": 0,
+                "tax_source": null,
+                "taxable_amount": 0
+            }
+        },
+        "timezone": "America/New_York",
+        "source_from": "app",
+        "created_on": 1735791184,
+        "updated_on": 1737504002,
+        "code": "250102Z6MCYA6F"
+    },
+    {
+        "order_status": "completed",
+        "payment_status": "paid",
+        "payment_method": "stripe",
+        "pricing": {
+            "items_total": 79.98,
+            "items_discount": 0,
+            "sub_total": 79.98,
+            "total": 71.65,
+            "affiliate_discount": 0,
+            "shipping": 0,
+            "shipping_rate": {
+                "_id": {
+                    "$oid": "66ccb98e7309d93d11732247"
+                },
+                "name": "Free Shipping",
+                "amount": 0,
+                "estimated_days": 4,
+                "conditions": {
+                    "is_turn_on": false,
+                    "type": "order_price",
+                    "min_price": 120,
+                    "max_price": 10000,
+                    "_id": {
+                        "$oid": "6708132c87952301f32f988c"
+                    }
+                },
+                "status": "active",
+                "created_on": 1724692878,
+                "updated_on": 1728582444,
+                "__v": 0,
+                "is_free_ship": true,
+                "id": {
+                    "$oid": "66ccb98e7309d93d11732247"
+                },
+                "servicelevel_name": "Free Shipping",
+                "is_flat_rate": true,
+                "provider": "nailzy"
+            },
+            "sales_tax": 0,
+            "sales_tax_rates": 0,
+            "coupons": [
+                {
+                    "id": "66e046c5798c36d31e74ba76",
+                    "amount": 39.99,
+                    "discount_amount": 8.333333333333334,
+                    "provider": "nailzy",
+                    "code": "WELCOME50"
+                }
+            ],
+            "coupon_discount_amount": 8.333333333333334,
+            "tax_information": {
+                "amount_to_collect": 0,
+                "freight_taxable": true,
+                "has_nexus": false,
+                "order_total_amount": 79.98,
+                "rate": 0,
+                "shipping": 0,
+                "tax_source": null,
+                "taxable_amount": 0
+            }
+        },
+        "timezone": "America/New_York",
+        "source_from": "app",
+        "created_on": 1735791184,
+        "updated_on": 1738022401,
+        "code": "250102P45WOQJ5"
+    },
+    {
+        "order_status": "completed",
+        "payment_status": "paid",
+        "payment_method": "stripe",
+        "pricing": {
+            "items_total": 47.5,
+            "items_discount": 0,
+            "sub_total": 47.5,
+            "total": 23.75,
+            "affiliate_discount": 0,
+            "shipping": 0,
+            "shipping_rate": {
+                "_id": {
+                    "$oid": "66da0a43a9e201e3b567164e"
+                },
+                "seller_id": {
+                    "$oid": "66b3d610d6d2af98e07956d6"
+                },
+                "name": "Free Shipping",
+                "amount": 0,
+                "estimated_days": 4,
+                "conditions": {
+                    "is_turn_on": false,
+                    "type": "order_price",
+                    "min_price": 250,
+                    "max_price": 10000,
+                    "weight_unit": "lb",
+                    "_id": {
+                        "$oid": "66fc2ead2c7639e7113601a0"
+                    }
+                },
+                "status": "active",
+                "created_on": 1725565507,
+                "updated_on": 1727803053,
+                "__v": 0,
+                "is_free_ship": true,
+                "id": {
+                    "$oid": "66da0a43a9e201e3b567164e"
+                },
+                "servicelevel_name": "Free Shipping",
+                "is_flat_rate": true,
+                "provider": "nailzy"
+            },
+            "sales_tax": 0,
+            "sales_tax_rates": 0,
+            "coupons": [
+                {
+                    "id": "66e046c5798c36d31e74ba76",
+                    "amount": 23.75,
+                    "discount_amount": 23.75,
+                    "provider": "nailzy",
+                    "code": "WELCOME50"
+                }
+            ],
+            "coupon_discount_amount": 23.75,
+            "tax_information": {
+                "amount_to_collect": 0,
+                "freight_taxable": true,
+                "has_nexus": false,
+                "order_total_amount": 47.5,
+                "rate": 0,
+                "shipping": 0,
+                "tax_source": null,
+                "taxable_amount": 0
+            }
+        },
+        "timezone": "America/New_York",
+        "source_from": "app",
+        "created_on": 1735791616,
+        "updated_on": 1737590402,
+        "code": "2501025G06DI8X"
+    },
+    {
+        "order_status": "completed",
+        "payment_status": "paid",
+        "payment_method": "stripe",
+        "pricing": {
+            "items_total": 41,
+            "items_discount": 0,
+            "sub_total": 41,
+            "total": 36.88,
+            "affiliate_discount": 0,
+            "shipping": 0,
+            "shipping_rate": {
+                "_id": {
+                    "$oid": "66da0a43a9e201e3b567164e"
+                },
+                "seller_id": {
+                    "$oid": "66b3d610d6d2af98e07956d6"
+                },
+                "name": "Free Shipping",
+                "amount": 0,
+                "estimated_days": 4,
+                "conditions": {
+                    "is_turn_on": false,
+                    "type": "order_price",
+                    "min_price": 250,
+                    "max_price": 10000,
+                    "weight_unit": "lb",
+                    "_id": {
+                        "$oid": "66fc2ead2c7639e7113601a0"
+                    }
+                },
+                "status": "active",
+                "created_on": 1725565507,
+                "updated_on": 1727803053,
+                "__v": 0,
+                "is_free_ship": true,
+                "id": {
+                    "$oid": "66da0a43a9e201e3b567164e"
+                },
+                "servicelevel_name": "Free Shipping",
+                "is_flat_rate": true,
+                "provider": "nailzy"
+            },
+            "sales_tax": 3.38,
+            "sales_tax_rates": 0.0825,
+            "coupons": [
+                {
+                    "id": "66e1f1278eeef3eb5cc023af",
+                    "amount": 12.3,
+                    "discount_amount": 7.5,
+                    "provider": "nailzy",
+                    "code": "NAILZY30"
+                }
+            ],
+            "coupon_discount_amount": 7.5,
+            "tax_information": {
+                "amount_to_collect": 3.38,
+                "breakdown": {
+                    "city_tax_collectable": 0.41,
+                    "city_tax_rate": 0.01,
+                    "city_taxable_amount": 41,
+                    "combined_tax_rate": 0.0825,
+                    "county_tax_collectable": 0,
+                    "county_tax_rate": 0,
+                    "county_taxable_amount": 0,
+                    "line_items": [
+                        {
+                            "city_amount": 0.06,
+                            "city_tax_rate": 0.01,
+                            "city_taxable_amount": 6,
+                            "combined_tax_rate": 0.0825,
+                            "county_amount": 0,
+                            "county_tax_rate": 0,
+                            "county_taxable_amount": 0,
+                            "id": "6776118af79f891bea73e337",
+                            "special_district_amount": 0.06,
+                            "special_district_taxable_amount": 6,
+                            "special_tax_rate": 0.01,
+                            "state_amount": 0.38,
+                            "state_sales_tax_rate": 0.0625,
+                            "state_taxable_amount": 6,
+                            "tax_collectable": 0.5,
+                            "taxable_amount": 6
+                        },
+                        {
+                            "city_amount": 0.35,
+                            "city_tax_rate": 0.01,
+                            "city_taxable_amount": 35,
+                            "combined_tax_rate": 0.0825,
+                            "county_amount": 0,
+                            "county_tax_rate": 0,
+                            "county_taxable_amount": 0,
+                            "id": "6776133ff79f891bea742cf7",
+                            "special_district_amount": 0.35,
+                            "special_district_taxable_amount": 35,
+                            "special_tax_rate": 0.01,
+                            "state_amount": 2.19,
+                            "state_sales_tax_rate": 0.0625,
+                            "state_taxable_amount": 35,
+                            "tax_collectable": 2.89,
+                            "taxable_amount": 35
+                        }
+                    ],
+                    "shipping": {
+                        "city_amount": 0,
+                        "city_tax_rate": 0.01,
+                        "city_taxable_amount": 0,
+                        "combined_tax_rate": 0.0825,
+                        "county_amount": 0,
+                        "county_tax_rate": 0,
+                        "county_taxable_amount": 0,
+                        "special_district_amount": 0,
+                        "special_tax_rate": 0.01,
+                        "special_taxable_amount": 0,
+                        "state_amount": 0,
+                        "state_sales_tax_rate": 0.0625,
+                        "state_taxable_amount": 0,
+                        "tax_collectable": 0,
+                        "taxable_amount": 0
+                    },
+                    "special_district_tax_collectable": 0.41,
+                    "special_district_taxable_amount": 41,
+                    "special_tax_rate": 0.01,
+                    "state_tax_collectable": 2.56,
+                    "state_tax_rate": 0.0625,
+                    "state_taxable_amount": 41,
+                    "tax_collectable": 3.38,
+                    "taxable_amount": 41
+                },
+                "freight_taxable": true,
+                "has_nexus": true,
+                "jurisdictions": {
+                    "city": "LOS ANGELES",
+                    "country": "US",
+                    "county": "LOS ANGELES",
+                    "state": "CA"
+                },
+                "order_total_amount": 41,
+                "rate": 0.02,
+                "shipping": 0,
+                "tax_source": "origin",
+                "taxable_amount": 41
+            }
+        },
+        "timezone": "America/Chicago",
+        "source_from": "app",
+        "created_on": 1735792066,
+        "updated_on": 1738108800,
+        "code": "250102O2KBJ2DW"
+    },
+    {
+        "order_status": "completed",
+        "payment_status": "paid",
+        "payment_method": "stripe",
+        "pricing": {
+            "items_total": 288,
+            "items_discount": 90,
+            "sub_total": 198,
+            "total": 206.84,
+            "affiliate_discount": 0,
+            "shipping": 0,
+            "shipping_rate": {
+                "_id": {
+                    "$oid": "66ccb98e7309d93d11732247"
+                },
+                "name": "Free Shipping",
+                "amount": 0,
+                "estimated_days": 4,
+                "conditions": {
+                    "is_turn_on": false,
+                    "type": "order_price",
+                    "min_price": 120,
+                    "max_price": 10000,
+                    "_id": {
+                        "$oid": "6708132c87952301f32f988c"
+                    }
+                },
+                "status": "active",
+                "created_on": 1724692878,
+                "updated_on": 1728582444,
+                "__v": 0,
+                "is_free_ship": true,
+                "id": {
+                    "$oid": "66ccb98e7309d93d11732247"
+                },
+                "servicelevel_name": "Free Shipping",
+                "is_flat_rate": true,
+                "provider": "nailzy"
+            },
+            "sales_tax": 16.34,
+            "sales_tax_rates": 0.0825,
+            "coupons": [
+                {
+                    "id": "66e1f1278eeef3eb5cc023af",
+                    "amount": 59.4,
+                    "discount_amount": 7.5,
+                    "provider": "nailzy",
+                    "code": "NAILZY30"
+                }
+            ],
+            "coupon_discount_amount": 7.5,
+            "tax_information": {
+                "amount_to_collect": 16.34,
+                "breakdown": {
+                    "city_tax_collectable": 1.98,
+                    "city_tax_rate": 0.01,
+                    "city_taxable_amount": 198,
+                    "combined_tax_rate": 0.0825,
+                    "county_tax_collectable": 0,
+                    "county_tax_rate": 0,
+                    "county_taxable_amount": 0,
+                    "line_items": [
+                        {
+                            "city_amount": 1.98,
+                            "city_tax_rate": 0.01,
+                            "city_taxable_amount": 198,
+                            "combined_tax_rate": 0.0825,
+                            "county_amount": 0,
+                            "county_tax_rate": 0,
+                            "county_taxable_amount": 0,
+                            "id": "67760f33f79f891bea737398",
+                            "special_district_amount": 1.98,
+                            "special_district_taxable_amount": 198,
+                            "special_tax_rate": 0.01,
+                            "state_amount": 12.38,
+                            "state_sales_tax_rate": 0.0625,
+                            "state_taxable_amount": 198,
+                            "tax_collectable": 16.34,
+                            "taxable_amount": 198
+                        }
+                    ],
+                    "shipping": {
+                        "city_amount": 0,
+                        "city_tax_rate": 0.01,
+                        "city_taxable_amount": 0,
+                        "combined_tax_rate": 0.0825,
+                        "county_amount": 0,
+                        "county_tax_rate": 0,
+                        "county_taxable_amount": 0,
+                        "special_district_amount": 0,
+                        "special_tax_rate": 0.01,
+                        "special_taxable_amount": 0,
+                        "state_amount": 0,
+                        "state_sales_tax_rate": 0.0625,
+                        "state_taxable_amount": 0,
+                        "tax_collectable": 0,
+                        "taxable_amount": 0
+                    },
+                    "special_district_tax_collectable": 1.98,
+                    "special_district_taxable_amount": 198,
+                    "special_tax_rate": 0.01,
+                    "state_tax_collectable": 12.38,
+                    "state_tax_rate": 0.0625,
+                    "state_taxable_amount": 198,
+                    "tax_collectable": 16.34,
+                    "taxable_amount": 198
+                },
+                "freight_taxable": true,
+                "has_nexus": true,
+                "jurisdictions": {
+                    "city": "GARLAND",
+                    "country": "US",
+                    "county": "DALLAS",
+                    "state": "TX"
+                },
+                "order_total_amount": 198,
+                "rate": 0.0825,
+                "shipping": 0,
+                "tax_source": "origin",
+                "taxable_amount": 198
+            }
+        },
+        "timezone": "America/Chicago",
+        "source_from": "app",
+        "created_on": 1735792066,
+        "updated_on": 1737504002,
+        "code": "250102PJNT4ICS"
+    },
+    {
+        "order_status": "completed",
+        "payment_status": "paid",
+        "payment_method": "stripe",
+        "pricing": {
+            "items_total": 63.98,
+            "items_discount": 0,
+            "sub_total": 63.98,
+            "total": 44.26,
+            "affiliate_discount": 0,
+            "shipping": 0,
+            "shipping_rate": {
+                "_id": {
+                    "$oid": "66ccb98e7309d93d11732247"
+                },
+                "name": "Free Shipping",
+                "amount": 0,
+                "estimated_days": 4,
+                "conditions": {
+                    "is_turn_on": false,
+                    "type": "order_price",
+                    "min_price": 120,
+                    "max_price": 10000,
+                    "_id": {
+                        "$oid": "6708132c87952301f32f988c"
+                    }
+                },
+                "status": "active",
+                "created_on": 1724692878,
+                "updated_on": 1728582444,
+                "__v": 0,
+                "is_free_ship": true,
+                "id": {
+                    "$oid": "66ccb98e7309d93d11732247"
+                },
+                "servicelevel_name": "Free Shipping",
+                "is_flat_rate": true,
+                "provider": "nailzy"
+            },
+            "sales_tax": 5.28,
+            "sales_tax_rates": 0.0825,
+            "coupons": [
+                {
+                    "id": "66e046c5798c36d31e74ba76",
+                    "amount": 31.99,
+                    "discount_amount": 25,
+                    "provider": "nailzy",
+                    "code": "WELCOME50"
+                }
+            ],
+            "coupon_discount_amount": 25,
+            "tax_information": {
+                "amount_to_collect": 5.28,
+                "breakdown": {
+                    "city_tax_collectable": 0.64,
+                    "city_tax_rate": 0.01,
+                    "city_taxable_amount": 63.98,
+                    "combined_tax_rate": 0.0825,
+                    "county_tax_collectable": 0,
+                    "county_tax_rate": 0,
+                    "county_taxable_amount": 0,
+                    "line_items": [
+                        {
+                            "city_amount": 0.64,
+                            "city_tax_rate": 0.01,
+                            "city_taxable_amount": 63.98,
+                            "combined_tax_rate": 0.0825,
+                            "county_amount": 0,
+                            "county_tax_rate": 0,
+                            "county_taxable_amount": 0,
+                            "id": "6776153ff79f891bea748297",
+                            "special_district_amount": 0.64,
+                            "special_district_taxable_amount": 63.98,
+                            "special_tax_rate": 0.01,
+                            "state_amount": 4,
+                            "state_sales_tax_rate": 0.0625,
+                            "state_taxable_amount": 63.98,
+                            "tax_collectable": 5.28,
+                            "taxable_amount": 63.98
+                        }
+                    ],
+                    "shipping": {
+                        "city_amount": 0,
+                        "city_tax_rate": 0.01,
+                        "city_taxable_amount": 0,
+                        "combined_tax_rate": 0.0825,
+                        "county_amount": 0,
+                        "county_tax_rate": 0,
+                        "county_taxable_amount": 0,
+                        "special_district_amount": 0,
+                        "special_tax_rate": 0.01,
+                        "special_taxable_amount": 0,
+                        "state_amount": 0,
+                        "state_sales_tax_rate": 0.0625,
+                        "state_taxable_amount": 0,
+                        "tax_collectable": 0,
+                        "taxable_amount": 0
+                    },
+                    "special_district_tax_collectable": 0.64,
+                    "special_district_taxable_amount": 63.98,
+                    "special_tax_rate": 0.01,
+                    "state_tax_collectable": 4,
+                    "state_tax_rate": 0.0625,
+                    "state_taxable_amount": 63.98,
+                    "tax_collectable": 5.28,
+                    "taxable_amount": 63.98
+                },
+                "freight_taxable": true,
+                "has_nexus": true,
+                "jurisdictions": {
+                    "city": "NEW YORK CITY",
+                    "country": "US",
+                    "county": "NEW YORK CITY",
+                    "state": "NY"
+                },
+                "order_total_amount": 63.98,
+                "rate": 0.05,
+                "shipping": 0,
+                "tax_source": "origin",
+                "taxable_amount": 63.98
+            }
+        },
+        "timezone": "America/Chicago",
+        "source_from": "app",
+        "created_on": 1735792507,
+        "updated_on": 1737417602,
+        "code": "250102NP2396EG"
+    },
+    {
+        "order_status": "completed",
+        "payment_status": "paid",
+        "payment_method": "stripe",
+        "pricing": {
+            "items_total": 15.58,
+            "items_discount": 0,
+            "sub_total": 15.58,
+            "total": 10.91,
+            "affiliate_discount": 0,
+            "shipping": 0,
+            "shipping_rate": {
+                "_id": {
+                    "$oid": "66ccb98e7309d93d11732247"
+                },
+                "name": "Free Shipping",
+                "amount": 0,
+                "estimated_days": 4,
+                "conditions": {
+                    "is_turn_on": false,
+                    "type": "order_price",
+                    "min_price": 120,
+                    "max_price": 10000,
+                    "_id": {
+                        "$oid": "6708132c87952301f32f988c"
+                    }
+                },
+                "status": "active",
+                "created_on": 1724692878,
+                "updated_on": 1728582444,
+                "__v": 0,
+                "is_free_ship": true,
+                "id": {
+                    "$oid": "66ccb98e7309d93d11732247"
+                },
+                "servicelevel_name": "Free Shipping",
+                "is_flat_rate": true,
+                "provider": "nailzy"
+            },
+            "sales_tax": 0,
+            "sales_tax_rates": 0,
+            "coupons": [
+                {
+                    "id": "66e1f1278eeef3eb5cc023af",
+                    "amount": 4.67,
+                    "discount_amount": 4.67,
+                    "provider": "nailzy",
+                    "code": "NAILZY30"
+                }
+            ],
+            "coupon_discount_amount": 4.67,
+            "tax_information": {
+                "amount_to_collect": 0,
+                "freight_taxable": true,
+                "has_nexus": false,
+                "order_total_amount": 15.58,
+                "rate": 0,
+                "shipping": 0,
+                "tax_source": null,
+                "taxable_amount": 0
+            }
+        },
+        "timezone": "America/New_York",
+        "source_from": "app",
+        "created_on": 1735796427,
+        "updated_on": 1737417602,
+        "code": "250102IC9VY443"
+    },
+    {
+        "order_status": "completed",
+        "payment_status": "paid",
+        "payment_method": "stripe",
+        "pricing": {
+            "items_total": 14,
+            "items_discount": 0,
+            "sub_total": 14,
+            "total": 9,
+            "affiliate_discount": 0,
+            "shipping": 0,
+            "shipping_rate": {
+                "_id": {
+                    "$oid": "66fc2df32c7639e71135c3e9"
+                },
+                "seller_id": {
+                    "$oid": "66b3d5a3d6d2af98e0795578"
+                },
+                "name": "Free Shipping",
+                "amount": 0,
+                "estimated_days": 4,
+                "conditions": {
+                    "is_turn_on": false,
+                    "type": "order_price",
+                    "min_price": 0,
+                    "max_price": 0,
+                    "weight_unit": "lb",
+                    "_id": {
+                        "$oid": "66fc2df32c7639e71135c3ea"
+                    }
+                },
+                "status": "active",
+                "is_free_ship": true,
+                "created_on": 1727802867,
+                "updated_on": 1727802867,
+                "__v": 0,
+                "id": {
+                    "$oid": "66fc2df32c7639e71135c3e9"
+                },
+                "servicelevel_name": "Free Shipping",
+                "is_flat_rate": true,
+                "provider": "nailzy"
+            },
+            "sales_tax": 0,
+            "sales_tax_rates": 0,
+            "coupons": [
+                {
+                    "id": "66e046c5798c36d31e74ba76",
+                    "amount": 7,
+                    "discount_amount": 5,
+                    "provider": "nailzy",
+                    "code": "WELCOME50"
+                }
+            ],
+            "coupon_discount_amount": 5,
+            "tax_information": {
+                "amount_to_collect": 0,
+                "freight_taxable": false,
+                "has_nexus": false,
+                "order_total_amount": 14,
+                "rate": 0,
+                "shipping": 0,
+                "tax_source": null,
+                "taxable_amount": 0
+            }
+        },
+        "timezone": "America/Los_Angeles",
+        "source_from": "app",
+        "created_on": 1735798227,
+        "updated_on": 1737849602,
+        "code": "250102LRXLQ2ZA"
+    },
+    {
+        "order_status": "completed",
+        "payment_status": "paid",
+        "payment_method": "stripe",
+        "pricing": {
+            "items_total": 24,
+            "items_discount": 0,
+            "sub_total": 24,
+            "total": 19,
+            "affiliate_discount": 0,
+            "shipping": 0,
+            "shipping_rate": {
+                "_id": {
+                    "$oid": "66da0a43a9e201e3b567164e"
+                },
+                "seller_id": {
+                    "$oid": "66b3d610d6d2af98e07956d6"
+                },
+                "name": "Free Shipping",
+                "amount": 0,
+                "estimated_days": 4,
+                "conditions": {
+                    "is_turn_on": false,
+                    "type": "order_price",
+                    "min_price": 250,
+                    "max_price": 10000,
+                    "weight_unit": "lb",
+                    "_id": {
+                        "$oid": "66fc2ead2c7639e7113601a0"
+                    }
+                },
+                "status": "active",
+                "created_on": 1725565507,
+                "updated_on": 1727803053,
+                "__v": 0,
+                "is_free_ship": true,
+                "id": {
+                    "$oid": "66da0a43a9e201e3b567164e"
+                },
+                "servicelevel_name": "Free Shipping",
+                "is_flat_rate": true,
+                "provider": "nailzy"
+            },
+            "sales_tax": 0,
+            "sales_tax_rates": 0,
+            "coupons": [
+                {
+                    "id": "66e046c5798c36d31e74ba76",
+                    "amount": 12,
+                    "discount_amount": 5,
+                    "provider": "nailzy",
+                    "code": "WELCOME50"
+                }
+            ],
+            "coupon_discount_amount": 5,
+            "tax_information": {
+                "amount_to_collect": 0,
+                "freight_taxable": false,
+                "has_nexus": false,
+                "order_total_amount": 24,
+                "rate": 0,
+                "shipping": 0,
+                "tax_source": null,
+                "taxable_amount": 0
+            }
+        },
+        "timezone": "America/Los_Angeles",
+        "source_from": "app",
+        "created_on": 1735798227,
+        "updated_on": 1737590402,
+        "code": "2501029XVB2W7M"
+    },
+    {
+        "order_status": "completed",
+        "payment_status": "paid",
+        "payment_method": "stripe",
+        "pricing": {
+            "items_total": 16.33,
+            "items_discount": 2.6,
+            "sub_total": 13.73,
+            "total": 8.73,
+            "affiliate_discount": 0,
+            "shipping": 0,
+            "shipping_rate": {
+                "_id": {
+                    "$oid": "66ccb98e7309d93d11732247"
+                },
+                "name": "Free Shipping",
+                "amount": 0,
+                "estimated_days": 4,
+                "conditions": {
+                    "is_turn_on": false,
+                    "type": "order_price",
+                    "min_price": 120,
+                    "max_price": 10000,
+                    "_id": {
+                        "$oid": "6708132c87952301f32f988c"
+                    }
+                },
+                "status": "active",
+                "created_on": 1724692878,
+                "updated_on": 1728582444,
+                "__v": 0,
+                "is_free_ship": true,
+                "id": {
+                    "$oid": "66ccb98e7309d93d11732247"
+                },
+                "servicelevel_name": "Free Shipping",
+                "is_flat_rate": true,
+                "provider": "nailzy"
+            },
+            "sales_tax": 0,
+            "sales_tax_rates": 0,
+            "coupons": [
+                {
+                    "id": "66e046c5798c36d31e74ba76",
+                    "amount": 6.87,
+                    "discount_amount": 5,
+                    "provider": "nailzy",
+                    "code": "WELCOME50"
+                }
+            ],
+            "coupon_discount_amount": 5,
+            "tax_information": {
+                "amount_to_collect": 0,
+                "freight_taxable": false,
+                "has_nexus": false,
+                "order_total_amount": 13.73,
+                "rate": 0,
+                "shipping": 0,
+                "tax_source": null,
+                "taxable_amount": 0
+            }
+        },
+        "timezone": "America/Los_Angeles",
+        "source_from": "app",
+        "created_on": 1735798227,
+        "updated_on": 1737504002,
+        "code": "250102AE236X34"
+    },
+    {
+        "order_status": "completed",
+        "payment_status": "paid",
+        "payment_method": "stripe",
+        "pricing": {
+            "items_total": 25.98,
+            "items_discount": 7,
+            "sub_total": 18.98,
+            "total": 13.98,
+            "affiliate_discount": 0,
+            "shipping": 0,
+            "shipping_rate": {
+                "_id": {
+                    "$oid": "66ccb98e7309d93d11732247"
+                },
+                "name": "Free Shipping",
+                "amount": 0,
+                "estimated_days": 4,
+                "conditions": {
+                    "is_turn_on": false,
+                    "type": "order_price",
+                    "min_price": 120,
+                    "max_price": 10000,
+                    "_id": {
+                        "$oid": "6708132c87952301f32f988c"
+                    }
+                },
+                "status": "active",
+                "created_on": 1724692878,
+                "updated_on": 1728582444,
+                "__v": 0,
+                "is_free_ship": true,
+                "id": {
+                    "$oid": "66ccb98e7309d93d11732247"
+                },
+                "servicelevel_name": "Free Shipping",
+                "is_flat_rate": true,
+                "provider": "nailzy"
+            },
+            "sales_tax": 0,
+            "sales_tax_rates": 0,
+            "coupons": [
+                {
+                    "id": "66e046c5798c36d31e74ba76",
+                    "amount": 9.49,
+                    "discount_amount": 5,
+                    "provider": "nailzy",
+                    "code": "WELCOME50"
+                }
+            ],
+            "coupon_discount_amount": 5,
+            "tax_information": {
+                "amount_to_collect": 0,
+                "freight_taxable": false,
+                "has_nexus": false,
+                "order_total_amount": 18.98,
+                "rate": 0,
+                "shipping": 0,
+                "tax_source": null,
+                "taxable_amount": 0
+            }
+        },
+        "timezone": "America/Los_Angeles",
+        "source_from": "app",
+        "created_on": 1735798227,
+        "updated_on": 1738022401,
+        "code": "250102T7TQ6VV7"
+    },
+    {
+        "order_status": "completed",
+        "payment_status": "paid",
+        "payment_method": "stripe",
+        "pricing": {
+            "items_total": 19.778,
+            "items_discount": 4.638,
+            "sub_total": 15.14,
+            "total": 10.14,
+            "affiliate_discount": 0,
+            "shipping": 0,
+            "shipping_rate": {
+                "_id": {
+                    "$oid": "66da0da6a9e201e3b567666b"
+                },
+                "seller_id": {
+                    "$oid": "66cf82caffc4c15fe5ebbd78"
+                },
+                "name": "Free Shipping",
+                "amount": 0,
+                "estimated_days": 4,
+                "conditions": {
+                    "is_turn_on": false,
+                    "type": "order_price",
+                    "min_price": 250,
+                    "max_price": 10000,
+                    "weight_unit": "lb",
+                    "_id": {
+                        "$oid": "66fc2e0f2c7639e71135d1de"
+                    }
+                },
+                "status": "active",
+                "created_on": 1725566374,
+                "updated_on": 1727802895,
+                "__v": 0,
+                "is_free_ship": true,
+                "id": {
+                    "$oid": "66da0da6a9e201e3b567666b"
+                },
+                "servicelevel_name": "Free Shipping",
+                "is_flat_rate": true,
+                "provider": "nailzy"
+            },
+            "sales_tax": 0,
+            "sales_tax_rates": 0,
+            "coupons": [
+                {
+                    "id": "66e046c5798c36d31e74ba76",
+                    "amount": 7.57,
+                    "discount_amount": 5,
+                    "provider": "nailzy",
+                    "code": "WELCOME50"
+                }
+            ],
+            "coupon_discount_amount": 5,
+            "tax_information": {
+                "amount_to_collect": 0,
+                "freight_taxable": false,
+                "has_nexus": false,
+                "order_total_amount": 15.14,
+                "rate": 0,
+                "shipping": 0,
+                "tax_source": null,
+                "taxable_amount": 0
+            }
+        },
+        "timezone": "America/Los_Angeles",
+        "source_from": "app",
+        "created_on": 1735798227,
+        "updated_on": 1737590402,
+        "code": "2501020MH7LNNU"
+    }
+]

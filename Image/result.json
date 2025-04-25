@@ -1,0 +1,42 @@
+[
+    {
+        "amount_to_collect": 5.36,
+        "city": "ROCKWALL",
+        "country": "US",
+        "county": "DALLAS",
+        "state": "TX",
+        "rate": 0.0725
+    },
+    {
+        "amount_to_collect": 2.97,
+        "city": "ROWLETT",
+        "country": "US",
+        "county": "DALLAS",
+        "state": "TX",
+        "rate": 0.0625
+    },
+    {
+        "amount_to_collect": 3.38,
+        "city": "LOS ANGELES",
+        "country": "US",
+        "county": "LOS ANGELES",
+        "state": "CA",
+        "rate": 0.02
+    },
+    {
+        "amount_to_collect": 5.28,
+        "city": "NEW YORK CITY",
+        "country": "US",
+        "county": "NEW YORK CITY",
+        "state": "NY",
+        "rate": 0.05
+    },
+    {
+        "amount_to_collect": 24.259999999999998,
+        "city": "GARLAND",
+        "country": "US",
+        "county": "DALLAS",
+        "state": "TX",
+        "rate": 0.0825
+    }
+]
