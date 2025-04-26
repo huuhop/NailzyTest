@@ -13,8 +13,6 @@ export class SeedService implements OnModuleInit {
     const dataPath = path.join(__dirname, '../../sample_orders.json');
     const jsonData = fs.readFileSync(dataPath, 'utf-8');
     const orders = JSON.parse(jsonData);
-    // console.log(orders);
-    
 
     await this.orderModel.deleteMany({});
     await this.orderModel.insertMany(orders);
